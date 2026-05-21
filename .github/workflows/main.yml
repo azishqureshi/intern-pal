@@ -19,14 +19,14 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - name: Ensure notified.json exists
+      - name: Ensure state.json exists
         run: |
-          if [ ! -f notified.json ]; then
-            echo "[]" > notified.json
-            git add notified.json
-            git commit -m "chore(notified): add initial notified.json [skip ci]" || echo "no initial commit needed"
+          if [ ! -f state.json ]; then
+            echo "{}" > state.json
+            git add state.json
+            git commit -m "chore(state): add initial state.json [skip ci]" || echo "no initial commit needed"
           else
-            echo "notified.json exists"
+            echo "state.json exists"
           fi
 
       - name: Set up Python
@@ -41,22 +41,23 @@ jobs:
 
       - name: Run Canada Internship Notifier
         env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_GENERAL: ${{ secrets.DISCORD_WEBHOOK_GENERAL }}
+          DISCORD_WEBHOOK_AMD: ${{ secrets.DISCORD_WEBHOOK_AMD }}
         run: |
           python notify_canada_interns.py
 
-      - name: Commit & push notified.json (if changed)
+      - name: Commit & push state.json (if changed)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add notified.json
+          git add state.json
           # only commit if there are staged changes
           if git diff --cached --quiet; then
-            echo "No changes to notified.json — nothing to commit"
+            echo "No changes to state.json — nothing to commit"
           else
-            git commit -m "chore(notified): update notified.json [skip ci]"
+            git commit -m "chore(state): update state.json [skip ci]"
             # push back to the branch this workflow is running on
             BRANCH="${GITHUB_REF#refs/heads/}"
             git push origin "HEAD:${BRANCH}"
-            echo "pushed updated notified.json to ${BRANCH}"
+            echo "pushed updated state.json to ${BRANCH}"
           fi
