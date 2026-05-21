@@ -7,7 +7,11 @@ from bs4 import BeautifulSoup
 from models import Posting
 from utils import location_is_canada, strip_html_tags
 
-AMD_SEARCH_URL = "https://careers.amd.com/careers-home/jobs?page=1&categories=Student%20%2F%20Intern%20%2F%20Temp"
+AMD_SEARCH_URL = "https://careers.amd.com/jobs?page=1&categories=Student%20%2F%20Intern%20%2F%20Temp&country=Canada"
+AMD_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
 
 def _extract_section(text: str, start_kw: str, end_kw: str) -> str:
@@ -26,7 +30,7 @@ def _is_internship_role(title: str, categories: str) -> bool:
 
 
 def fetch_postings(search_url: str = AMD_SEARCH_URL) -> List[Posting]:
-    r = requests.get(search_url, timeout=20)
+    r = requests.get(search_url, headers=AMD_HEADERS, timeout=20)
     r.raise_for_status()
 
     soup = BeautifulSoup(r.text, "lxml")

@@ -34,6 +34,26 @@ def is_age_zero(age_text: Optional[str]) -> bool:
     return re.search(r"\b0\s*d\b|\b0\s*days?\b", age_text.lower()) is not None
 
 
+def parse_age_days(age_text: Optional[str]) -> Optional[int]:
+    if not age_text:
+        return None
+    m = re.search(r"\b(\d+)\s*d\b|\b(\d+)\s*days?\b", age_text.lower())
+    if not m:
+        return None
+    value = m.group(1) or m.group(2)
+    try:
+        return int(value)
+    except ValueError:
+        return None
+
+
+def is_age_within_days(age_text: Optional[str], max_days: int) -> bool:
+    age_days = parse_age_days(age_text)
+    if age_days is None:
+        return False
+    return age_days <= max_days
+
+
 def make_dedupe_key(posting: Posting) -> str:
     if posting.job_id:
         return normalize_url(posting.job_id)

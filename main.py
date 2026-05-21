@@ -3,7 +3,7 @@ from typing import Dict, List
 
 from models import Posting
 from utils import (
-    is_age_zero,
+    is_age_within_days,
     load_state,
     location_is_canada,
     make_dedupe_key,
@@ -25,6 +25,8 @@ CHANNELS = [
         "webhook_env": "DISCORD_WEBHOOK_GENERAL",
         "sources": None,
         "company_filters": None,
+        "max_age_days_env": "MAX_AGE_DAYS_GENERAL",
+        "max_age_days_default": 0,
     },
     {
         "name": "amd",
@@ -40,6 +42,19 @@ def _company_matches(company: str, filters: List[str]) -> bool:
     return any(f.lower() in company_lower for f in filters)
 
 
+def _get_max_age_days(channel: Dict) -> Optional[int]:
+    env_name = channel.get("max_age_days_env")
+    if not env_name:
+        return channel.get("max_age_days")
+    raw = os.getenv(env_name, "")
+    if raw == "":
+        return channel.get("max_age_days_default")
+    try:
+        return int(raw)
+    except ValueError:
+        return channel.get("max_age_days_default")
+
+
 def _posting_matches_channel(posting: Posting, channel: Dict) -> bool:
     sources = channel.get("sources")
     if sources and posting.source not in sources:
@@ -52,8 +67,10 @@ def _posting_matches_channel(posting: Posting, channel: Dict) -> bool:
     if company_filters and not _company_matches(posting.company, company_filters):
         return False
 
-    if posting.source == "simplifyjobs" and not is_age_zero(posting.age):
-        return False
+    max_age_days = _get_max_age_days(channel)
+    if max_age_days is not None and posting.age is not None:
+        if not is_age_within_days(posting.age, max_age_days):
+            return False
 
     return True
 

@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from models import Posting
-from utils import is_age_zero, location_is_canada, normalize_url, strip_html_tags
+from utils import location_is_canada, normalize_url, strip_html_tags
 
 RAW_README_URL = "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/dev/README.md"
 SUBROW_MARKER = "\u21b3"
@@ -194,9 +194,8 @@ def fetch_postings() -> List[Posting]:
     previous_company = None
     total_rows = 0
     canada_rows = 0
-    age_zero_rows = 0
     sample_non_canada = []
-    sample_non_zero_age = []
+    sample_ages = []
 
     for item in normalized_rows:
         total_rows += 1
@@ -207,13 +206,9 @@ def fetch_postings() -> List[Posting]:
             if len(sample_non_canada) < 3:
                 sample_non_canada.append(strip_html_tags(location))
             continue
-        if not is_age_zero(age):
-            canada_rows += 1
-            if len(sample_non_zero_age) < 3:
-                sample_non_zero_age.append(strip_html_tags(age))
-            continue
         canada_rows += 1
-        age_zero_rows += 1
+        if len(sample_ages) < 3:
+            sample_ages.append(strip_html_tags(age))
 
         app_raw_key = (application_header + "_raw") if application_header else None
         app_raw_val = item.get(app_raw_key or "", "") if app_raw_key else ""
@@ -248,9 +243,9 @@ def fetch_postings() -> List[Posting]:
         )
 
     print(f"simplifyjobs: matched postings={len(postings)}")
-    print(f"simplifyjobs: total rows={total_rows} canada rows={canada_rows} age0 rows={age_zero_rows}")
+    print(f"simplifyjobs: total rows={total_rows} canada rows={canada_rows}")
     if sample_non_canada:
         print(f"simplifyjobs: sample non-canada locations={sample_non_canada}")
-    if sample_non_zero_age:
-        print(f"simplifyjobs: sample non-zero ages={sample_non_zero_age}")
+    if sample_ages:
+        print(f"simplifyjobs: sample ages={sample_ages}")
     return postings
