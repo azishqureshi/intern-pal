@@ -152,30 +152,36 @@ def fetch_postings() -> List[Posting]:
     md = fetch_readme_raw(RAW_README_URL)
     section = find_section_markdown(md, ["Software Engineering Internship Roles", "Software Engineering"])
     if not section:
+        print("simplifyjobs: section not found")
         return []
 
     table_lines = extract_first_markdown_table(section)
     rows = []
     if table_lines:
+        print(f"simplifyjobs: markdown table lines={len(table_lines)}")
         rows = parse_markdown_table(table_lines)
     else:
         html_rows = parse_html_table(section)
         if html_rows:
+            print(f"simplifyjobs: html table rows={len(html_rows)}")
             rows = html_rows
         else:
             m = re.search(r"(<table[\s\S]*?</table>)", md, re.IGNORECASE)
             if m:
                 parsed_any = parse_html_table(m.group(1))
                 if parsed_any:
+                    print(f"simplifyjobs: html table fallback rows={len(parsed_any)}")
                     rows = parsed_any
 
     if not rows:
+        print("simplifyjobs: no rows parsed")
         return []
 
     normalized_rows = build_normalized_rows(rows)
 
     headers = list(normalized_rows[0].keys())
     human_headers = [h for h in headers if not h.endswith("_raw")]
+    print(f"simplifyjobs: headers={human_headers}")
 
     application_header = next((h for h in human_headers if "apply" in h.lower() or "application" in h.lower()), None)
     location_header = next((h for h in human_headers if "location" in h.lower()), None)
@@ -228,4 +234,5 @@ def fetch_postings() -> List[Posting]:
             )
         )
 
+    print(f"simplifyjobs: matched postings={len(postings)}")
     return postings

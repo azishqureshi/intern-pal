@@ -32,6 +32,7 @@ def fetch_postings(search_url: str = AMD_SEARCH_URL) -> List[Posting]:
     soup = BeautifulSoup(r.text, "lxml")
     text = soup.get_text(" ", strip=True)
     text = _extract_section(text, "Results", "Not ready to apply")
+    print(f"amd: text length={len(text)}")
 
     pattern = re.compile(
         r"(?P<title>.*?)\s+Req ID:\s*(?P<reqid>\d+)\s+Location\s+(?P<location>.*?)\s+Categories\s+(?P<categories>.*?)\s+Apply Now\s*:\s*(?P<title2>.*?)\s+(?=Req ID:|Items per page|$)",
@@ -39,7 +40,9 @@ def fetch_postings(search_url: str = AMD_SEARCH_URL) -> List[Posting]:
     )
 
     postings: List[Posting] = []
+    match_count = 0
     for m in pattern.finditer(text):
+        match_count += 1
         title = m.group("title").strip()
         title2 = m.group("title2").strip()
         reqid = m.group("reqid").strip()
@@ -67,4 +70,5 @@ def fetch_postings(search_url: str = AMD_SEARCH_URL) -> List[Posting]:
             )
         )
 
+    print(f"amd: regex matches={match_count} filtered postings={len(postings)}")
     return postings
