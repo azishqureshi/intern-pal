@@ -6,6 +6,7 @@ from utils import (
     is_age_within_days,
     load_state,
     location_is_canada,
+    location_is_canada_amd,
     make_dedupe_key,
     save_state,
     send_discord_webhook,
@@ -60,8 +61,12 @@ def _posting_matches_channel(posting: Posting, channel: Dict) -> bool:
     if sources and posting.source not in sources:
         return False
 
-    if not location_is_canada(posting.location):
-        return False
+    if posting.source == "amd":
+        if not location_is_canada_amd(posting.location):
+            return False
+    else:
+        if not location_is_canada(posting.location):
+            return False
 
     company_filters = channel.get("company_filters")
     if company_filters and not _company_matches(posting.company, company_filters):
