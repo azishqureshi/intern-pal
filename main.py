@@ -97,7 +97,7 @@ def _build_fields(posting: Posting) -> List[Dict[str, str]]:
 
 
 def _send_posting(posting: Posting, webhook_url: str) -> None:
-    title = f"New Canada Internship — {posting.company or 'Unknown'}"
+    title = f"New Internship: {posting.company or 'Unknown'}"
     description = f"[View posting]({posting.url})" if posting.url else "Posting link not found."
     fields = _build_fields(posting)
     send_discord_webhook(webhook_url, title=title, description=description, url=posting.url, fields=fields)
