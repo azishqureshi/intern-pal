@@ -43,6 +43,7 @@ jobs:
         env:
           DISCORD_WEBHOOK_GENERAL: ${{ secrets.DISCORD_WEBHOOK_GENERAL }}
           DISCORD_WEBHOOK_AMD: ${{ secrets.DISCORD_WEBHOOK_AMD }}
+          MAX_AGE_DAYS_GENERAL: "2"
         run: |
           python notify_canada_interns.py
 
