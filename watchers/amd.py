@@ -1,5 +1,5 @@
 import re
-from typing import List
+from typing import List, Optional
 
 import requests
 from bs4 import BeautifulSoup
@@ -11,6 +11,7 @@ AMD_SEARCH_URL = "https://careers.amd.com/jobs?categories=Student%20%2F%20Intern
 AMD_FALLBACK_URLS = [
     "https://careers.amd.com/careers-home/jobs?page=1&categories=Student%20%2F%20Intern%20%2F%20Temp&country=Canada",
 ]
+AMD_JINA_PREFIX = "https://r.jina.ai/http://"
 AMD_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -41,28 +42,29 @@ def _fetch_search_text(url: str) -> str:
     return _extract_section(text, "Results", "Not ready to apply")
 
 
-def fetch_postings(search_url: str = AMD_SEARCH_URL) -> List[Posting]:
-    text = _fetch_search_text(search_url)
-    if "Req ID" not in text:
-        for fallback_url in AMD_FALLBACK_URLS:
-            text = _fetch_search_text(fallback_url)
-            if "Req ID" in text:
-                print(f"amd: using fallback url={fallback_url}")
-                break
+def _fetch_jina_text(url: str) -> str:
+    r = requests.get(f"{AMD_JINA_PREFIX}{url}", headers=AMD_HEADERS, timeout=20)
+    r.raise_for_status()
+    return r.text
 
-    print(f"amd: text length={len(text)}")
-    if text:
-        print(f"amd: text sample={text[:200]}")
 
-    pattern = re.compile(
+def _normalize_text(text: str) -> str:
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _parse_postings_from_text(text: str) -> List[Posting]:
+    postings: List[Posting] = []
+
+    pattern_full = re.compile(
         r"(?P<title>.*?)\s+Req ID:\s*(?P<reqid>\d+)\s+Location\s+(?P<location>.*?)\s+Categories\s+(?P<categories>.*?)\s+Apply Now\s*:\s*(?P<title2>.*?)\s+(?=Req ID:|Items per page|$)",
         re.IGNORECASE,
     )
+    pattern_simple = re.compile(
+        r"\[(?P<title>[^\]]+?)\]\((?P<url>https?://[^)]+)\)\s+Req ID:\s*(?P<reqid>\d+)\s+Location\s+(?P<location>.*?)\s+Categories\s+(?P<categories>.*?)(?=\s+\[|\s+Items per page|$)",
+        re.IGNORECASE,
+    )
 
-    postings: List[Posting] = []
-    match_count = 0
-    for m in pattern.finditer(text):
-        match_count += 1
+    for m in pattern_full.finditer(text):
         title = m.group("title").strip()
         title2 = m.group("title2").strip()
         reqid = m.group("reqid").strip()
@@ -84,11 +86,60 @@ def fetch_postings(search_url: str = AMD_SEARCH_URL) -> List[Posting]:
                 title=title or "Unknown",
                 location=location or "Unknown",
                 age=None,
-                url=f"https://careers.amd.com/jobs/{reqid}",
+                url=f"https://careers.amd.com/careers-home/jobs/{reqid}?lang=en-us",
                 job_id=reqid or None,
                 posted_at=None,
             )
         )
 
-    print(f"amd: regex matches={match_count} filtered postings={len(postings)}")
+    if postings:
+        return postings
+
+    for m in pattern_simple.finditer(text):
+        title = m.group("title").strip()
+        url = m.group("url").strip()
+        reqid = m.group("reqid").strip()
+        location = strip_html_tags(m.group("location").strip())
+        categories = strip_html_tags(m.group("categories").strip())
+
+        if re.search(r"\b(united states|usa)\b", location.lower()):
+            continue
+        if not _is_internship_role(title, categories):
+            continue
+
+        postings.append(
+            Posting(
+                source="amd",
+                company="AMD",
+                title=title or "Unknown",
+                location=location or "Unknown",
+                age=None,
+                url=url,
+                job_id=reqid or None,
+                posted_at=None,
+            )
+        )
+
+    return postings
+
+
+def fetch_postings(search_url: str = AMD_SEARCH_URL) -> List[Posting]:
+    text = _fetch_search_text(search_url)
+    if "Req ID" not in text:
+        for fallback_url in AMD_FALLBACK_URLS:
+            text = _fetch_search_text(fallback_url)
+            if "Req ID" in text:
+                print(f"amd: using fallback url={fallback_url}")
+                break
+
+    if "Req ID" not in text:
+        print("amd: primary fetch missing listings, trying jina.ai")
+        text = _fetch_jina_text(search_url)
+
+    text = _normalize_text(text)
+    print(f"amd: text length={len(text)}")
+    if text:
+        print(f"amd: text sample={text[:200]}")
+    postings = _parse_postings_from_text(text)
+    print(f"amd: filtered postings={len(postings)}")
     return postings
