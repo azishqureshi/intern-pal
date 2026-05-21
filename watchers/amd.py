@@ -33,6 +33,8 @@ def fetch_postings(search_url: str = AMD_SEARCH_URL) -> List[Posting]:
     text = soup.get_text(" ", strip=True)
     text = _extract_section(text, "Results", "Not ready to apply")
     print(f"amd: text length={len(text)}")
+    if text:
+        print(f"amd: text sample={text[:200]}")
 
     pattern = re.compile(
         r"(?P<title>.*?)\s+Req ID:\s*(?P<reqid>\d+)\s+Location\s+(?P<location>.*?)\s+Categories\s+(?P<categories>.*?)\s+Apply Now\s*:\s*(?P<title2>.*?)\s+(?=Req ID:|Items per page|$)",

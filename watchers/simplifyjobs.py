@@ -192,15 +192,28 @@ def fetch_postings() -> List[Posting]:
     postings: List[Posting] = []
     last_valid_link = None
     previous_company = None
+    total_rows = 0
+    canada_rows = 0
+    age_zero_rows = 0
+    sample_non_canada = []
+    sample_non_zero_age = []
 
     for item in normalized_rows:
+        total_rows += 1
         location = item.get(location_header, "")
         age = item.get(age_header, "")
 
         if not location_is_canada(location):
+            if len(sample_non_canada) < 3:
+                sample_non_canada.append(strip_html_tags(location))
             continue
         if not is_age_zero(age):
+            canada_rows += 1
+            if len(sample_non_zero_age) < 3:
+                sample_non_zero_age.append(strip_html_tags(age))
             continue
+        canada_rows += 1
+        age_zero_rows += 1
 
         app_raw_key = (application_header + "_raw") if application_header else None
         app_raw_val = item.get(app_raw_key or "", "") if app_raw_key else ""
@@ -235,4 +248,9 @@ def fetch_postings() -> List[Posting]:
         )
 
     print(f"simplifyjobs: matched postings={len(postings)}")
+    print(f"simplifyjobs: total rows={total_rows} canada rows={canada_rows} age0 rows={age_zero_rows}")
+    if sample_non_canada:
+        print(f"simplifyjobs: sample non-canada locations={sample_non_canada}")
+    if sample_non_zero_age:
+        print(f"simplifyjobs: sample non-zero ages={sample_non_zero_age}")
     return postings
