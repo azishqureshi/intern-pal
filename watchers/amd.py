@@ -5,11 +5,15 @@ import requests
 from bs4 import BeautifulSoup
 
 from models import Posting
-from utils import location_is_canada, strip_html_tags
+from utils import strip_html_tags
 
-AMD_SEARCH_URL = "https://careers.amd.com/jobs?page=1&categories=Student%20%2F%20Intern%20%2F%20Temp&country=Canada"
+AMD_SEARCH_URL = "https://careers.amd.com/jobs?categories=Student%20%2F%20Intern%20%2F%20Temp&country=Canada"
+AMD_FALLBACK_URLS = [
+    "https://careers.amd.com/careers-home/jobs?page=1&categories=Student%20%2F%20Intern%20%2F%20Temp&country=Canada",
+]
 AMD_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
 }
 
@@ -29,13 +33,23 @@ def _is_internship_role(title: str, categories: str) -> bool:
     return re.search(r"\bintern\b|internship|\bco[-\s]?op\b|student", blob) is not None
 
 
-def fetch_postings(search_url: str = AMD_SEARCH_URL) -> List[Posting]:
-    r = requests.get(search_url, headers=AMD_HEADERS, timeout=20)
+def _fetch_search_text(url: str) -> str:
+    r = requests.get(url, headers=AMD_HEADERS, timeout=20)
     r.raise_for_status()
-
     soup = BeautifulSoup(r.text, "lxml")
     text = soup.get_text(" ", strip=True)
-    text = _extract_section(text, "Results", "Not ready to apply")
+    return _extract_section(text, "Results", "Not ready to apply")
+
+
+def fetch_postings(search_url: str = AMD_SEARCH_URL) -> List[Posting]:
+    text = _fetch_search_text(search_url)
+    if "Req ID" not in text:
+        for fallback_url in AMD_FALLBACK_URLS:
+            text = _fetch_search_text(fallback_url)
+            if "Req ID" in text:
+                print(f"amd: using fallback url={fallback_url}")
+                break
+
     print(f"amd: text length={len(text)}")
     if text:
         print(f"amd: text sample={text[:200]}")
@@ -58,7 +72,7 @@ def fetch_postings(search_url: str = AMD_SEARCH_URL) -> List[Posting]:
         if title2 and title2.lower() not in title.lower():
             title = title2
 
-        if not location_is_canada(location):
+        if re.search(r"\b(united states|usa)\b", location.lower()):
             continue
         if not _is_internship_role(title, categories):
             continue
