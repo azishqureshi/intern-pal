@@ -44,7 +44,17 @@ def location_is_canada_cibc(location_text: str) -> bool:
     cleaned = strip_html_tags(location_text).lower()
     if "canada" in cleaned:
         return True
-    return re.search(r"\bca[-,\s](on|bc|qc|ab|mb|nb|nl|ns|nt|nu|pe|sk|yt)\b", cleaned) is not None
+    if re.search(r"\bca[-,\s](on|bc|qc|ab|mb|nb|nl|ns|nt|nu|pe|sk|yt)\b", cleaned):
+        return True
+    if re.search(r"(?:,|\()\s*(on|bc|qc|ab|mb|nb|nl|ns|nt|nu|pe|sk|yt)\s*(?:\)|,|$)", cleaned):
+        return True
+    if re.search(
+        r"\b(ontario|quebec|british columbia|alberta|manitoba|new brunswick|newfoundland|nova scotia|"
+        r"northwest territories|nunavut|prince edward island|saskatchewan|yukon)\b",
+        cleaned,
+    ):
+        return True
+    return False
 
 
 def is_age_zero(age_text: Optional[str]) -> bool:
