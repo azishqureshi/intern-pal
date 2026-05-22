@@ -4,7 +4,12 @@ on:
   schedule:
     # Runs every hour
     - cron: "*/30 * * * *"
-  workflow_dispatch: # manual trigger possible
+  workflow_dispatch:
+    inputs:
+      force_send_cibc:
+        description: "Send all CIBC postings (ignore state)"
+        required: false
+        default: "false"
 
 permissions:
   contents: write  # allow the workflow to push commits using GITHUB_TOKEN
@@ -45,6 +50,7 @@ jobs:
           DISCORD_WEBHOOK_AMD: ${{ secrets.DISCORD_WEBHOOK_AMD }}
           DISCORD_WEBHOOK_CIBC: ${{ secrets.DISCORD_WEBHOOK_CIBC }}
           MAX_AGE_DAYS_GENERAL: "0"
+          FORCE_SEND_CIBC: ${{ github.event.inputs.force_send_cibc }}
         run: |
           python notify_canada_interns.py
 

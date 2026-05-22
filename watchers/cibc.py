@@ -47,9 +47,17 @@ def _extract_location(posting: Dict) -> str:
 def _build_posting_url(posting: Dict) -> Optional[str]:
     external_path = posting.get("externalPath")
     if isinstance(external_path, str) and external_path.strip():
-        if external_path.startswith("/"):
-            return f"{CIBC_BASE_URL}{external_path}"
-        return external_path
+        path = external_path.strip()
+        if path.startswith("/en-US/"):
+            return f"{CIBC_BASE_URL}{path}"
+        if path.startswith("/job/"):
+            slug = path.rsplit("/", 1)[-1]
+            return f"{CIBC_BASE_URL}/en-US/{CIBC_SITE}/details/{slug}"
+        if path.startswith("/details/"):
+            return f"{CIBC_BASE_URL}/en-US/{CIBC_SITE}{path}"
+        if path.startswith("/"):
+            return f"{CIBC_BASE_URL}{path}"
+        return path
 
     return None
 
