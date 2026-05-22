@@ -56,12 +56,23 @@ def _build_posting_url(posting: Dict) -> Optional[str]:
 
 def _fetch_page(offset: int, limit: int) -> Dict:
     params = {
-        "jobFamilyGroup": "4bbe6c74e8a7013edb3931a881012710",
-        "Country": "a30a87ed25634629aa6c3958aa2b91ea",
         "offset": offset,
         "limit": limit,
     }
     r = requests.get(CIBC_API_URL, headers=CIBC_HEADERS, params=params, timeout=20)
+    if r.status_code != 400:
+        r.raise_for_status()
+        return r.json()
+
+    payload = {
+        "appliedFacets": {
+            "jobFamilyGroup": ["4bbe6c74e8a7013edb3931a881012710"],
+            "country": ["a30a87ed25634629aa6c3958aa2b91ea"],
+        },
+        "offset": offset,
+        "limit": limit,
+    }
+    r = requests.post(CIBC_API_URL, headers=CIBC_HEADERS, json=payload, timeout=20)
     r.raise_for_status()
     return r.json()
 

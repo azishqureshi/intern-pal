@@ -38,6 +38,15 @@ def location_is_canada_amd(location_text: str) -> bool:
     return re.search(r"\bca,(on|bc|qc|ab|mb|nb|nl|ns|nt|nu|pe|sk|yt)\b", cleaned) is not None
 
 
+def location_is_canada_cibc(location_text: str) -> bool:
+    if not location_text:
+        return False
+    cleaned = strip_html_tags(location_text).lower()
+    if "canada" in cleaned:
+        return True
+    return re.search(r"\bca[-,\s](on|bc|qc|ab|mb|nb|nl|ns|nt|nu|pe|sk|yt)\b", cleaned) is not None
+
+
 def is_age_zero(age_text: Optional[str]) -> bool:
     if not age_text:
         return False

@@ -7,6 +7,7 @@ from utils import (
     load_state,
     location_is_canada,
     location_is_canada_amd,
+    location_is_canada_cibc,
     make_dedupe_key,
     save_state,
     send_discord_webhook,
@@ -70,6 +71,9 @@ def _posting_matches_channel(posting: Posting, channel: Dict) -> bool:
 
     if posting.source == "amd":
         if not location_is_canada_amd(posting.location):
+            return False
+    elif posting.source == "cibc":
+        if not location_is_canada_cibc(posting.location):
             return False
     else:
         if not location_is_canada(posting.location):
