@@ -64,13 +64,6 @@ def _get_max_age_days(channel: Dict) -> Optional[int]:
         return channel.get("max_age_days_default")
 
 
-def _force_send_channel(channel_name: str) -> bool:
-    if channel_name != "cibc":
-        return False
-    raw = os.getenv("FORCE_SEND_CIBC", "").strip().lower()
-    return raw in {"1", "true", "yes", "y"}
-
-
 def _posting_matches_channel(posting: Posting, channel: Dict) -> bool:
     sources = channel.get("sources")
     if sources and posting.source not in sources:
@@ -145,10 +138,6 @@ def main() -> None:
             print(f"{channel_name}: missing {webhook_env}, skipping")
             continue
 
-        force_send = _force_send_channel(channel_name)
-        if force_send:
-            print(f"{channel_name}: force send enabled")
-
         channel_state = state.get(channel_name, set())
 
         for posting in all_postings:
@@ -156,7 +145,7 @@ def main() -> None:
                 continue
 
             key = make_dedupe_key(posting)
-            if not force_send and key in channel_state:
+            if key in channel_state:
                 continue
 
             try:
