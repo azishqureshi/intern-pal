@@ -11,13 +11,14 @@ from utils import (
     save_state,
     send_discord_webhook,
 )
-from watchers import amd, simplifyjobs
+from watchers import amd, cibc, simplifyjobs
 
 STATE_FILE = "state.json"
 
 WATCHERS = {
     "simplifyjobs": simplifyjobs.fetch_postings,
     "amd": amd.fetch_postings,
+    "cibc": cibc.fetch_postings,
 }
 
 CHANNELS = [
@@ -34,6 +35,12 @@ CHANNELS = [
         "webhook_env": "DISCORD_WEBHOOK_AMD",
         "sources": ["amd"],
         "company_filters": ["AMD", "Advanced Micro Devices"],
+    },
+    {
+        "name": "cibc",
+        "webhook_env": "DISCORD_WEBHOOK_CIBC",
+        "sources": ["cibc"],
+        "company_filters": ["CIBC"],
     },
 ]
 
