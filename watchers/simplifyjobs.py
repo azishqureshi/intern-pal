@@ -190,7 +190,6 @@ def fetch_postings() -> List[Posting]:
     age_header = next((h for h in human_headers if "age" in h.lower()), None)
 
     postings: List[Posting] = []
-    last_valid_link = None
     previous_company = None
     total_rows = 0
     canada_rows = 0
@@ -202,14 +201,6 @@ def fetch_postings() -> List[Posting]:
         location = item.get(location_header, "")
         age = item.get(age_header, "")
 
-        if not location_is_canada(location):
-            if len(sample_non_canada) < 3:
-                sample_non_canada.append(strip_html_tags(location))
-            continue
-        canada_rows += 1
-        if len(sample_ages) < 3:
-            sample_ages.append(strip_html_tags(age))
-
         app_raw_key = (application_header + "_raw") if application_header else None
         app_raw_val = item.get(app_raw_key or "", "") if app_raw_key else ""
         current_link = extract_link_from_cell(app_raw_val) or extract_link_from_cell(item.get(application_header or "", ""))
@@ -220,10 +211,17 @@ def fetch_postings() -> List[Posting]:
         if company_text_stripped and company_text_stripped != SUBROW_MARKER:
             previous_company = company_text_stripped
 
-        if company_text_stripped and company_text_stripped != SUBROW_MARKER and current_link:
-            last_valid_link = current_link
+        if not location_is_canada(location):
+            if len(sample_non_canada) < 3:
+                sample_non_canada.append(strip_html_tags(location))
+            continue
+        canada_rows += 1
+        if len(sample_ages) < 3:
+            sample_ages.append(strip_html_tags(age))
 
-        link = current_link or last_valid_link
+        # A closed/missing link must never inherit another role's application.
+        if not current_link:
+            continue
 
         company_display = previous_company if company_text_stripped == SUBROW_MARKER and previous_company else company_text_stripped
         role_display = strip_html_tags(item.get(role_header, ""))
@@ -236,7 +234,7 @@ def fetch_postings() -> List[Posting]:
                 title=role_display or "Unknown",
                 location=loc_display or "Unknown",
                 age=age or None,
-                url=link,
+                url=current_link,
                 job_id=None,
                 posted_at=None,
             )

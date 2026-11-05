@@ -2,15 +2,21 @@ name: Notify Canada Internships
 
 on:
   schedule:
-    # Runs every hour
+    # Runs every 30 minutes
     - cron: "*/30 * * * *"
   workflow_dispatch: # manual trigger possible
 
 permissions:
   contents: write  # allow the workflow to push commits using GITHUB_TOKEN
 
+concurrency:
+  group: internship-notifications
+  cancel-in-progress: false
+
 jobs:
   notify:
+    if: github.ref_name == github.event.repository.default_branch
+    timeout-minutes: 20
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository (enable push)
@@ -18,16 +24,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-
-      - name: Ensure state.json exists
-        run: |
-          if [ ! -f state.json ]; then
-            echo "{}" > state.json
-            git add state.json
-            git commit -m "chore(state): add initial state.json [skip ci]" || echo "no initial commit needed"
-          else
-            echo "state.json exists"
-          fi
+          ref: ${{ github.event.repository.default_branch }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -37,19 +34,22 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml
+          pip install -r requirements.txt
+
+      - name: Run offline regression tests
+        run: python -m unittest discover -s tests -v
 
       - name: Run Canada Internship Notifier
         env:
           DISCORD_WEBHOOK_GENERAL: ${{ secrets.DISCORD_WEBHOOK_GENERAL }}
-          DISCORD_WEBHOOK_AMD: ${{ secrets.DISCORD_WEBHOOK_AMD }}
-          DISCORD_WEBHOOK_CIBC: ${{ secrets.DISCORD_WEBHOOK_CIBC }}
           MAX_AGE_DAYS_GENERAL: "0"
         run: |
           python notify_canada_interns.py
 
       - name: Commit & push state.json (if changed)
+        if: always()
         run: |
+          test -f state.json || exit 0
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add state.json
@@ -60,6 +60,17 @@ jobs:
             git commit -m "chore(state): update state.json [skip ci]"
             # push back to the branch this workflow is running on
             BRANCH="${GITHUB_REF#refs/heads/}"
-            git push origin "HEAD:${BRANCH}"
+            for attempt in 1 2 3; do
+              if git push origin "HEAD:${BRANCH}"; then break; fi
+              if [ "$attempt" = 3 ]; then exit 1; fi
+              git pull --rebase origin "$BRANCH"
+            done
             echo "pushed updated state.json to ${BRANCH}"
           fi
+      - name: Preserve recovery copy of notification history
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: notification-state-${{ github.run_id }}
+          path: state.json
+          retention-days: 7

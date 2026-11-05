@@ -12,3 +12,7 @@ class Posting:
     url: Optional[str]
     job_id: Optional[str]
     posted_at: Optional[str]
+    description: str = ""
+    employment_type: str = ""
+    category: str = ""
+    term: str = ""

@@ -1,18 +1,18 @@
 import os
+import logging
+import requests
 from typing import Dict, List, Optional
 
 from models import Posting
+from filtering import canadian_location, classify
+from tracking import Ledger, state_lock
 from utils import (
     is_age_within_days,
-    load_state,
     location_is_canada,
     location_is_canada_amd,
-    location_is_canada_cibc,
-    make_dedupe_key,
-    save_state,
     send_discord_webhook,
 )
-from watchers import amd, cibc, simplifyjobs
+from watchers import amd, amazon, banks, cibc, google, scotiabank, shopify, simplifyjobs
 
 STATE_FILE = "state.json"
 
@@ -20,6 +20,13 @@ WATCHERS = {
     "simplifyjobs": simplifyjobs.fetch_postings,
     "amd": amd.fetch_postings,
     "cibc": cibc.fetch_postings,
+    "rbc": banks.fetch_rbc,
+    "bmo": banks.fetch_bmo,
+    "td": banks.fetch_td,
+    "scotiabank": scotiabank.fetch_postings,
+    "shopify": shopify.fetch_postings,
+    "google": google.fetch_postings,
+    "amazon": amazon.fetch_postings,
 }
 
 CHANNELS = [
@@ -30,18 +37,6 @@ CHANNELS = [
         "company_filters": None,
         "max_age_days_env": "MAX_AGE_DAYS_GENERAL",
         "max_age_days_default": 0,
-    },
-    {
-        "name": "amd",
-        "webhook_env": "DISCORD_WEBHOOK_AMD",
-        "sources": ["amd"],
-        "company_filters": ["AMD", "Advanced Micro Devices"],
-    },
-    {
-        "name": "cibc",
-        "webhook_env": "DISCORD_WEBHOOK_CIBC",
-        "sources": ["cibc"],
-        "company_filters": ["CIBC"],
     },
 ]
 
@@ -72,12 +67,11 @@ def _posting_matches_channel(posting: Posting, channel: Dict) -> bool:
     if posting.source == "amd":
         if not location_is_canada_amd(posting.location):
             return False
-    elif posting.source == "cibc":
-        if not location_is_canada_cibc(posting.location):
-            return False
-    else:
+    elif posting.source == "simplifyjobs":
         if not location_is_canada(posting.location):
             return False
+    elif not canadian_location(posting.location, posting.description):
+        return False
 
     company_filters = channel.get("company_filters")
     if company_filters and not _company_matches(posting.company, company_filters):
@@ -99,6 +93,8 @@ def _build_fields(posting: Posting) -> List[Dict[str, str]]:
         {"name": "Source", "value": posting.source or "—", "inline": True},
     ]
 
+    if posting.term:
+        fields.append({"name": "Term", "value": posting.term, "inline": True})
     if posting.age:
         fields.append({"name": "Age", "value": posting.age or "—", "inline": True})
     if posting.job_id:
@@ -126,36 +122,72 @@ def run_all_watchers() -> List[Posting]:
     return postings
 
 
-def main() -> None:
-    state = load_state(STATE_FILE)
-    all_postings = run_all_watchers()
-
-    for channel in CHANNELS:
-        channel_name = channel["name"]
-        webhook_env = channel["webhook_env"]
-        webhook_url = os.getenv(webhook_env)
-        if not webhook_url:
-            print(f"{channel_name}: missing {webhook_env}, skipping")
+def process_postings(all_postings, ledger, dry_run=False):
+    """Group first so a verified official listing can supply the application URL."""
+    groups = {}
+    # Corporate records first allow same-scan official URL preference, including
+    # when the general channel's age rule only admits the SimplifyJobs member.
+    for posting in sorted(all_postings, key=lambda p: p.source == "simplifyjobs"):
+        if posting.source not in ("simplifyjobs", "amd") and not classify(posting).accepted:
             continue
+        if not posting.url:
+            continue
+        record = ledger.observe(posting)
+        groups.setdefault(id(record), (record, []))[1].append(posting)
+    if not dry_run:
+        ledger.save()
 
-        channel_state = state.get(channel_name, set())
-
-        for posting in all_postings:
-            if not _posting_matches_channel(posting, channel):
+    for record, members in groups.values():
+        if record["status"] != "discovered":
+            continue
+        candidates = []
+        for channel in CHANNELS:
+            webhook = os.getenv(channel["webhook_env"])
+            if not webhook and not dry_run:
                 continue
+            eligible = [p for p in members if _posting_matches_channel(p, channel)]
+            if eligible:
+                candidates.append((channel, webhook))
+        if not candidates:
+            continue
+        # All sources share the general destination and the same delivery ledger.
+        channel, webhook = candidates[0]
+        posting = members[0]
+        if dry_run:
+            print(f"DRY RUN {channel['name']}: {posting.company} - {posting.title} | {posting.url}")
+            continue
+        # Discord webhooks have no idempotency key. Reserve durably BEFORE the
+        # request: a timeout/crash may mean Discord already accepted the message.
+        # Never automatically retry ambiguous delivery and risk a duplicate.
+        record.update(status="pending", channel=channel["name"])
+        ledger.save()
+        try:
+            _send_posting(posting, webhook)
+        except requests.HTTPError as error:
+            status = error.response.status_code if error.response is not None else None
+            if status is not None and 400 <= status < 500 and status != 408:
+                record["status"] = "discovered"  # Explicit rejection, safe next-scan retry.
+            print(f"{channel['name']}: notification rejected/uncertain (HTTP {status}); status={record['status']}")
+            ledger.save()
+        except Exception as error:
+            print(f"{channel['name']}: delivery uncertain ({type(error).__name__}); pending record retained")
+        else:
+            record["status"] = "sent"
+            ledger.save()
+            print(f"{channel['name']}: sent {posting.company} - {posting.title}")
 
-            key = make_dedupe_key(posting)
-            if key in channel_state:
-                continue
 
-            try:
-                _send_posting(posting, webhook_url)
-                channel_state.add(key)
-                state[channel_name] = channel_state
-                save_state(state, STATE_FILE)
-                print(f"{channel_name}: sent {posting.company} - {posting.title}")
-            except Exception as e:
-                print(f"{channel_name}: failed to send {posting.company} - {posting.title}: {e}")
+def main() -> None:
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+    dry_run = os.getenv("DRY_RUN", "").lower() in ("1", "true", "yes")
+    with state_lock(STATE_FILE):
+        ledger = Ledger(STATE_FILE)
+        if not dry_run:
+            for channel in CHANNELS:
+                if not os.getenv(channel["webhook_env"]):
+                    print(f"{channel['name']}: missing {channel['webhook_env']}, channel unavailable")
+        all_postings = run_all_watchers()
+        process_postings(all_postings, ledger, dry_run=dry_run)
 
 
 if __name__ == "__main__":
