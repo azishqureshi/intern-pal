@@ -6332,6 +6332,19 @@
       "sources": [
         "simplifyjobs"
       ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---Android--May-2027---12-Months-_R10650"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "simplifyjobs"
+      ]
     }
   ],
   "_version": 2
