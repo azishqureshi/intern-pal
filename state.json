@@ -6345,6 +6345,32 @@
       "sources": [
         "simplifyjobs"
       ]
+    },
+    {
+      "company": "ryan",
+      "ids": [],
+      "urls": [
+        "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/North-York/Summer-2027-Intern--Software-Engineering_R0020807-1"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "simplifyjobs"
+      ]
+    },
+    {
+      "company": "ryan",
+      "ids": [],
+      "urls": [
+        "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Summer-2027-Intern--Software-Engineering_R0020806-1"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "simplifyjobs"
+      ]
     }
   ],
   "_version": 2
