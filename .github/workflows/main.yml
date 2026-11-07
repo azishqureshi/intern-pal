@@ -1,10 +1,20 @@
 name: Notify Canada Internships
+run-name: Notify Canada Internships | ${{ github.event_name }} | ${{ inputs.trigger_source || 'native' }}
 
 on:
   schedule:
-    # Runs every 5 minutes
-    - cron: "*/5 * * * *"
-  workflow_dispatch: # manual trigger possible
+    # Best-effort backup, hourly, away from the top of the hour.
+    # See docs/scheduling.md for the external primary and verification procedure.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      trigger_source:
+        description: "Trigger origin (observability only, not authorization)"
+        type: choice
+        options:
+          - manual
+          - external-scheduler
+        default: manual
 
 permissions:
   contents: write  # allow the workflow to push commits using GITHUB_TOKEN
