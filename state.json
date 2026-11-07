@@ -4498,7 +4498,8 @@
       ],
       "urls": [
         "https://www.google.com/about/careers/applications/jobs/results/112518690523488966",
-        "https://www.google.com/about/careers/applications/jobs/results/112518690523488966-software-developer-intern-phd-summer-2027?location=Canada&q=intern"
+        "https://www.google.com/about/careers/applications/jobs/results/112518690523488966-software-developer-intern-phd-summer-2027?location=Canada&q=intern",
+        "https://jobright.ai/jobs/info/6a8c013e4afae74a08351df7"
       ],
       "signatures": [
         [
@@ -4511,7 +4512,8 @@
       "channel": "general",
       "sources": [
         "legacy",
-        "canadianlist"
+        "canadianlist",
+        "internlist"
       ]
     },
     {
@@ -7419,7 +7421,8 @@
       "company": "ciena",
       "ids": [],
       "urls": [
-        "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Embedded-Software-Engineer---Co-op-Winter-2027_R032005"
+        "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Embedded-Software-Engineer---Co-op-Winter-2027_R032005",
+        "https://jobright.ai/jobs/info/6ae397f5fb2cd420ace525a9"
       ],
       "signatures": [
         [
@@ -7431,7 +7434,8 @@
       "status": "seen",
       "channel": "",
       "sources": [
-        "canadianlist"
+        "canadianlist",
+        "internlist"
       ]
     },
     {
@@ -8098,7 +8102,8 @@
       "company": "ciena",
       "ids": [],
       "urls": [
-        "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Software-Developer-Intern---Winter-2027_R031953-1"
+        "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Software-Developer-Intern---Winter-2027_R031953-1",
+        "https://jobright.ai/jobs/info/6ada5dc254bbabbab0715512"
       ],
       "signatures": [
         [
@@ -8110,7 +8115,8 @@
       "status": "seen",
       "channel": "",
       "sources": [
-        "canadianlist"
+        "canadianlist",
+        "internlist"
       ]
     },
     {
@@ -11221,10 +11227,6150 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "electronic arts ea",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad28bb7c4290cef1412b835"
+      ],
+      "signatures": [
+        [
+          "ai ml software developer intern 8 months masters qvs",
+          "vancouver bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aee333acaf8e660b87dcc7f"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "trench group",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad0f996256e49282e651414"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ab4301155e9168cf5ea4e4a"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "kinaxis",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac98284fe8f33a85d504201"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cnh",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9a267e1388387060592996"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "geocomply",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac454904ac55253f5d721d5"
+      ],
+      "signatures": [
+        [
+          "browser security developer intern",
+          "vancouver bc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bell",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ab441d4d2f5fbd604be2774"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "general dynamics mission systemscanada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa45c14f3aa936e2cdb0f87",
+        "https://jobright.ai/jobs/info/6a9aea4790a313642c656a30"
+      ],
+      "signatures": [
+        [
+          "intern devops developer 8 16 months",
+          "ottawa on calgary ab",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "plusgrade",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeb66b3765815f7d745ff01"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "sanctuary ai",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aee3aa3bd2f33eea72d9d55"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "hootsuite",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aee3a125c81f621d3114285",
+        "https://jobright.ai/jobs/info/6aee3970d20350c7a507ae9b"
+      ],
+      "signatures": [
+        [
+          "intern software developer",
+          "vancouver bc toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "hootsuite",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aee3972bd2f33eea72d9c5b"
+      ],
+      "signatures": [
+        [
+          "intern software developer",
+          "toronto on vancouver bc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "brave",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aee29e85c81f621d3112ca4"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "hootsuite",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aee23b35c81f621d3112646"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aecd39c3a3fa7f03ea898c3"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "ia financial group industrial alliance",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeddb66c7498922fe0c518b"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "nokia",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aedf6d0bd2f33eea72d579a"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bombardier",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad1755518608b6f36f84309"
+      ],
+      "signatures": [
+        [
+          "intern software developer",
+          "montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "magna international",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abc1ab692b2612ef0f8ce31"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "future electronics",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aedda57caf8e660b87d7db3"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "intel",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad0eb1818608b6f36f7fdb2"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "nokia",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad114ec3d3a5aa909b377fe"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "magna international",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aecf4afab48a707938200b8"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "varian",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aee26495c81f621d311290c"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "citi",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adbad3646a8cabdc1ff4337"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "citi",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adc1d935dc7953215a35e00"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "honeywell technologies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aed065aa2661405dc2c880d"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "geek",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aed0714ab48a70793820a4e"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "nelnet",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aecdf533a3fa7f03ea89e91"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "datavisor",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aebbadc82f0ac077443ca63"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "honeywell technologies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aecc9eaa2661405dc2c64d0"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bibliocommons",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aecb3fd465e3d2371380b97"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "semtech",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ab520219d4843569fe480c2"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "desjardins",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae93949e50c01a743a87e02"
+      ],
+      "signatures": [
+        [
+          "intern it sector",
+          "montreal qc levis qc",
+          "2026-fall"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeb71c582f0ac0774439c33"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "ibm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aecb265ab48a7079381d77c"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "ciena",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aaafbc5f6bd9d2d17c1ab48"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "entrust",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ab3d8b355e9168cf5ea2e74"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "honeywell aerospace",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aebbddf65311d97105bb8fc"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "honeywell aerospace",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aebbde0f40efa43f4a1a4bf"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "northstar earth space",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aebb53e765815f7d7463112"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aece19ea2661405dc2c7295"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aece19d3967d67f635a089c"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aece1aa3967d67f635a08aa"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aece1a13967d67f635a08a0"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "tc energy",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeba8bd65311d97105bad9a"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rivian and volkswagen group technologies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9b23d9fe45b8490f606fa5"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rivian and volkswagen group technologies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ab7ab3e3a2ec87116e2642c"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "electronic arts ea",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac6d5000e027c0f3b3b4a22"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "tmx group",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeb3cf7765815f7d745e559"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "tmx group",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeb790afbe13dfb53df4642"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "tmx group",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeb7947f40efa43f4a17be7"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "desjardins",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeb761cfbe13dfb53df43d1"
+      ],
+      "signatures": [
+        [
+          "intern with the desjardins group security office",
+          "levis qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "desjardins",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeb760afbe13dfb53df43b9"
+      ],
+      "signatures": [
+        [
+          "intern with the desjardins group security office",
+          "montreal west qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "plusgrade",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeb66cf82f0ac0774439530"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "plusgrade",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeb66c082f0ac0774439514"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "vena solutions",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ab297d230340229a322e431"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "tenstorrent",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acf449ab5b56465e65b89ed"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rodan energy solutions",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeb3856f40efa43f4a152e8"
+      ],
+      "signatures": [
+        [
+          "data operations developer ai intern",
+          "mississauga on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeac1a1440b469a1c0afe51"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aem",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeb539ea0b134121d9994e4"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "mlse maple leaf sports entertainment partnership",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeb58f7fbe13dfb53df2d46"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "definity",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aea60bb440b469a1c0ad75c"
+      ],
+      "signatures": [
+        [
+          "commercial insurance intern",
+          "waterloo on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "global relay",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aea4df64f991d64376ccd4c"
+      ],
+      "signatures": [
+        [
+          "intern software developer developer in test sdet",
+          "halifax ns",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "global relay",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aea4b814f991d64376ccb83"
+      ],
+      "signatures": [
+        [
+          "intern software developer developer in test sdet",
+          "vancouver bc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aea15aa4f991d64376ca790"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "botpress",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae9fb91913589212b1f1af8"
+      ],
+      "signatures": [
+        [
+          "software developer intern",
+          "montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae919b86c51033758f463d6"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cgi",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aea0d5d4f991d64376c9e84"
+      ],
+      "signatures": [
+        [
+          "ai developer intern 8 months",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "lockheed martin",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad8f39839284cd524281ef1"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "kinaxis",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae9fbdd4f991d64376c8f7e"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "meta",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae8d0f103f4a1104b2569e2"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acd7274ddd23cce28a125a3"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acd7276e7a1d93332111abb"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acd7272e7a1d93332111ab9"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adc854d5dc7953215a370ae"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acd7279e7a1d93332111abe"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acd7273ddd23cce28a125a2"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acd728c002e496d4bef23e7"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acdb5483e2155b545aa1a45"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada4d02e4b94611ab85b141"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a0c10d94d93203636875a7e"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a524d448576ec69c014b4ee"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acdb5453e2155b545aa1a44"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acd7275002e496d4bef23dd"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "textron",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae91030777c336eb6d6944f"
+      ],
+      "signatures": [
+        [
+          "stage hiver 2027 technologie de l information intern information technology mirabel qc",
+          "mirabel qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "american express",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae934240001223769e84c92"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aeab66f440b469a1c0afbe8"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "textron aviation",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae904c9777c336eb6d68c7b"
+      ],
+      "signatures": [
+        [
+          "stage hiver 2027 technologie de l information intern information technology mirabel qc",
+          "mirabel qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acfb7c378d51ae69ce07a1d"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "tmx group",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae8e4fb6c51033758f43fa0"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "pathway communications",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae8d9fa061d6d7ff3d7dc47"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rodan energy solutions",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae8c0c303f4a1104b255f8c"
+      ],
+      "signatures": [
+        [
+          "ai solutions specialist intern",
+          "mississauga on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "giro",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae7edb7bad9293a40a434e9"
+      ],
+      "signatures": [
+        [
+          "front end web developer intern",
+          "montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "giro",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa83b0782e82a31997c4912"
+      ],
+      "signatures": [
+        [
+          "software developer and artificial intelligence intern",
+          "montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "kepler communications",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad243ee5290d4375c451a71"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "epic games",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac6ae634ac55253f5d7b80e"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "desjardins",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae93946e50c01a743a87e00",
+        "https://jobright.ai/jobs/info/6a96694169b865490a631d73"
+      ],
+      "signatures": [
+        [
+          "intern with the desjardins group security office",
+          "montreal qc levis qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amazon",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aadb6fe2e757fcb5c8b9fb4"
+      ],
+      "signatures": [
+        [
+          "software developer developer intern can",
+          "vancouver bc toronto on winnipeg mb victoria bc ottawa on calgary ab",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aac5f12636cddf7396f3c8b"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aac98103e3ce93970c7df91"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "ea sports",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac9a147b359df915566aa9e"
+      ],
+      "signatures": [
+        [
+          "c software developer intern ufc vancouver 8 months",
+          "vancouver bc burnaby bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bombardier",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae638d7d7424a2a828ef07b",
+        "https://jobright.ai/jobs/info/6acdf2ad4028aee69ce11d45"
+      ],
+      "signatures": [
+        [
+          "intern professional technical artist unreal engine level 1",
+          "dorval qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "magnet forensics",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae6229477c09cb3bd4b52c1"
+      ],
+      "signatures": [
+        [
+          "software developer intern",
+          "ottawa on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae4f2e077c09cb3bd4b0754"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "connor clark lunn investment management cc l",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aca7a003c831dc4086bc2d9"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "mda space",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aac384795c707f49dff03ff",
+        "https://jobright.ai/jobs/info/6aac37ef636cddf7396f2f8b"
+      ],
+      "signatures": [
+        [
+          "developer intern python test data processing",
+          "sainte anne de bellevue qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "nuclear promise x",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aac356295c707f49dff027e"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "mda space",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aac3846636cddf7396f2fb8",
+        "https://jobright.ai/jobs/info/6aac37f53dbb1f8967ce9898"
+      ],
+      "signatures": [
+        [
+          "developer intern devops",
+          "sainte anne de bellevue qc montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "revvity",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae4c795d7424a2a828e8728"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "stripe",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae4c493d7424a2a828e84f0"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "stripe",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae4c4b4c3139b475b5b58fc"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "clinchoice",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae4bebe77c09cb3bd4ae3da"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "general dynamics mission systemscanada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9b0203fe45b8490f606621",
+        "https://jobright.ai/jobs/info/6a9aea37d5ff1f3f1c39bb64",
+        "https://jobright.ai/jobs/info/6a98401a83fc63335763052a",
+        "https://jobright.ai/jobs/info/6a983265def18223c854de65"
+      ],
+      "signatures": [
+        [
+          "intern software developer 8 months",
+          "ottawa on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cibc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae4f8d977c09cb3bd4b0aaf"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "general dynamics mission systemscanada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9aea459c24314c35f95d28",
+        "https://jobright.ai/jobs/info/6a982573af954907d65718fc"
+      ],
+      "signatures": [
+        [
+          "intern software developer developer 16 months",
+          "calgary ab",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bombardier",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae4f03177c09cb3bd4b0588",
+        "https://jobright.ai/jobs/info/6acdf304ee9da536dc21b64e"
+      ],
+      "signatures": [
+        [
+          "intern quality web developper",
+          "dorval qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "electronic arts ea",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae4c87ec3139b475b5b5bb5"
+      ],
+      "signatures": [
+        [
+          "quality designer intern",
+          "vancouver bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae39473d45dc30fb7d2ac20"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae3cdf0fb2cd420ace542c1"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae3cdda77c09cb3bd4a92d8"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "psp investments investissements psp",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac819a951a1b3e4219f0511"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "celestica",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac8af67fe8f33a85d500820"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "drw",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a54ffb52084cd792b47570b"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "eq bank",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac7b8f0fcdafb60c6a455ad"
+      ],
+      "signatures": [
+        [
+          "intern software developer",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "altera",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae3bb46d45dc30fb7d2c2cc"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "fours formerly suger",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae37a8ceab1f967309745c8"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "nvidia",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae56a6ad45dc30fb7d36bc8"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "fours formerly suger",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae27aa9829a3bada16056fd"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae360f1fb2cd420ace50558"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae26d2b6679108488c4b52e"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cibc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae37b7ed7424a2a828e0271"
+      ],
+      "signatures": [
+        [
+          "ai developer intern bilingual",
+          "montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "stmicroelectronics",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae222236679108488c47d98"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "tenstorrent",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac74bb1744463a18c9315ab"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "celestica",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adb957b46a8cabdc1ff3b39"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "siemens healthineers",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae22c7c829a3bada160217d"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "trench group",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa9a6cc3387a3d9b67d5f1d"
+      ],
+      "signatures": [
+        [
+          "ai ml intern electrical developer",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "drw",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a550063268af95237be89af"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "alstom",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae2d392d52406f6fbf73af2"
+      ],
+      "signatures": [
+        [
+          "intern data developer job details alstom",
+          "st bruno de montarville qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae3ae5dc3139b475b5af431"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae3ae5efb2cd420ace530ff"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "atlassian",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abd85854ac55253f5d5df54"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a6b2f52acb0a61f9dbbf9d2"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cibc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae249f06679108488c49aa4"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "dana",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae263b3eb7e8f715a60d911"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "the decision lab",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae267541f9d9308370b1c79"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "seaspan ulc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae219bc05a39c3e2c716711"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "acceldata",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/69fedb2da0eddc08c2396ba4"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "acceldata",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a116118619335383fb378a1"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bnp paribas",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac5bdd34ac55253f5d78107"
+      ],
+      "signatures": [
+        [
+          "machine learning intern",
+          "montreal qc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "lumentum",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac52bb38ff3fb9b3bc88066"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "eq bank",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa8472b82e82a31997c4eb1"
+      ],
+      "signatures": [
+        [
+          "intern modern workplace analyst",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "doordash",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abaf0e3d2914e9273eee2a8"
+      ],
+      "signatures": [
+        [
+          "software developer intern tor",
+          "toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "uber",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae1282667c31ab3489a1032"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "arkion identity systems",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae187d605a39c3e2c71330b"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "hexagon autonomous solutions",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae12c55829a3bada15fb467"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "sap",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae14174de23f466ec8bd89c"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad7f8c354bbabbab0704652"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "alayacare",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae10e0f05a39c3e2c70f9b2"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a3987cf1232144fb156bd95"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "astera labs",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aceaf1abb78de94580d7aaa"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "astera labs",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aceaf17680c80c8753be421"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "astera labs",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aceaf074f3229123da3da0a"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "electronic arts ea",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ace9749680c80c8753bdb84"
+      ],
+      "signatures": [
+        [
+          "technical artist intern vancouver 8 months undergraduate sports tech",
+          "vancouver bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "mercedes benz group ag",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae125921f9d9308370a8064"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "techinsights",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae0bdd85a5afc94bd2c69e7"
+      ],
+      "signatures": [
+        [
+          "qa test automation intern",
+          "ottawa on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "opusclip",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae0f52067c31ab34899f05f"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "mercedes benz in the uk",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae114f3de23f466ec8bc208"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9688e4e4e60e4b8da5943b"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "semtech",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac3e4b4064da25272e0ffe7"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ace495bba99f15ef4123f18"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ace495a4f3229123da3b25a"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "eq bank",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa837083a9f0a4fe6f17df3"
+      ],
+      "signatures": [
+        [
+          "intern commercial lending ai developer",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "eq bank",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa83709a77a53f5a1577f22"
+      ],
+      "signatures": [
+        [
+          "intern retail lending ai developer",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "squarepoint",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a84602de459fa3baa85debf"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "scotiabank",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adfbaf70a4cc7090f9827de"
+      ],
+      "signatures": [
+        [
+          "gbm trade floor technology consultant intern 12 16 months",
+          "toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "tenstorrent",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac4a07f4ac55253f5d72f6f"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "nuvacore",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adfaf855dc7953215a41bd6"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "trimble",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adbb7825dc7953215a34176"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "hitachi energy",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae3a682eab1f96730975ee8"
+      ],
+      "signatures": [
+        [
+          "software analyst intern 8 months",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cibc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adaa79a54bbabbab07182c5"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cibc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adfcb82065c4e77efafba59"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "m31 ai",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adfb0dd0a4cc7090f9820cf"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "sap",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac5cea5d9621c5b283a6ecc"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "tmx group",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adf8229c5c64fa3d9cbc3da"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adf66fa065c4e77efaf72e5"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adf66ea5dc7953215a3e879"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adf66ea9e3e874dbfbabdea"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adf74c4c5c64fa3d9cbbb5e"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adf74c5065c4e77efaf7a9b"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "kinaxis",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad77fe652aa6152bb69c23c"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa50db742411952ff9a6c60"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "walt disney animation studios",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae01c675dc7953215a455ce"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "walt disney animation studios",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae019189a8c91d5c358ba7e"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adf6b440a4cc7090f97ef34"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "infinity ward",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adf6da6065c4e77efaf7673"
+      ],
+      "signatures": [
+        [
+          "activision internshps game developer vancouver",
+          "vancouver bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adfa2419a8c91d5c35878de"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adf598f9a8c91d5c35847a8"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "lyft",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa4d41ba77a53f5a156e3d7",
+        "https://jobright.ai/jobs/info/6aa4981d8275e3a211760fb9"
+      ],
+      "signatures": [
+        [
+          "software developer intern machine learning toronto",
+          "toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "peoples group",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a6b5132acb0a61f9dbc01fb"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "lyft",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa60388a77a53f5a157374e",
+        "https://jobright.ai/jobs/info/6aa48484422289703bd66e54"
+      ],
+      "signatures": [
+        [
+          "data developer intern",
+          "toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "lyft",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa469cdf3aa936e2cdb128f",
+        "https://jobright.ai/jobs/info/6aa4766ff7baf881567ced3b",
+        "https://jobright.ai/jobs/info/6aa45dac1d92e2d05d114832"
+      ],
+      "signatures": [
+        [
+          "software developer intern fullstack toronto",
+          "toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "lyft",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa455e2f3aa936e2cdb0dd6",
+        "https://jobright.ai/jobs/info/6aa4694e422289703bd6683b"
+      ],
+      "signatures": [
+        [
+          "software developer intern backend montreal",
+          "montreal qc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "lyft",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa44b19f7baf881567ce2ff",
+        "https://jobright.ai/jobs/info/6aa47154f3aa936e2cdb1423"
+      ],
+      "signatures": [
+        [
+          "software developer intern backend toronto",
+          "toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amazon",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa48131c1928370a285e364"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cohere",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/69f51caea3d34b4f76f53c21"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "lyft",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa4a150422289703bd675e6",
+        "https://jobright.ai/jobs/info/6aa486398275e3a211760abc"
+      ],
+      "signatures": [
+        [
+          "software developer intern test automation",
+          "montreal qc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "kinaxis",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abfc4ee8ff3fb9b3bc78b43"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "american express",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adbda3a5dc7953215a35192"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "electronic arts ea",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac96d616355f8776ff18fbd"
+      ],
+      "signatures": [
+        [
+          "c software developer intern ufc vancouver 8 months",
+          "vancouver bc burnaby bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "boson ai",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adbdaab389e06bb41ad47e2"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "boson ai",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adbd7a146a8cabdc1ff55ce"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "pinterest",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abe968d8ff3fb9b3bc74a02"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "trimble",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adbb7875dc7953215a34177"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "trimble",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adbb7849e3e874dbfba15ef"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bombardier",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad68d1c950ef68d5183b37b",
+        "https://jobright.ai/jobs/info/6acdf35c3df789c1198a4ac4"
+      ],
+      "signatures": [
+        [
+          "intern developer",
+          "mississauga on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bombardier",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abec898064da25272e02f4c"
+      ],
+      "signatures": [
+        [
+          "intern geometry optimization tools application",
+          "montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "marvell technology",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abfae93372c01f6cd72850d"
+      ],
+      "signatures": [
+        [
+          "firmware developer intern",
+          "ottawa on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amazon",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa1d93d2f936e4a53dae67c"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "nokia",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adb700f9e3e874dbfb9fced"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "procogia",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac90110af788e6ad3b59467"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bombardier",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abf01768ff3fb9b3bc76f77"
+      ],
+      "signatures": [
+        [
+          "intern mdo tools developer",
+          "montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "procogia",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac8f8fc6355f8776ff16b46"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "kinaxis",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adbb68e389e06bb41ad370d"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada5b0a03d2da7528914450"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "pinterest",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abe969f4ac55253f5d617a6"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amazon",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a538411e726ec56126a7100"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "autodesk",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abe9b410e027c0f3b399c40"
+      ],
+      "signatures": [
+        [
+          "software developer intern",
+          "toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cnh",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ab96be3ba1c25652c6147a9"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rivian and volkswagen group technologies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada8d6403d2da7528916911"
+      ],
+      "signatures": [
+        [
+          "software developer intern applications",
+          "vancouver bc toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rivian and volkswagen group technologies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada8d65950ef68d51858c58"
+      ],
+      "signatures": [
+        [
+          "software developer intern connected systems",
+          "vancouver bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rivian and volkswagen group technologies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada8d643a69033df225a629"
+      ],
+      "signatures": [
+        [
+          "software developer intern embedded platforms",
+          "vancouver bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada81c4950ef68d5185866c"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "veeda ai",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada7b0354bbabbab0716d7c"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bombardier",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae30a4cd7424a2a828dd91c"
+      ],
+      "signatures": [
+        [
+          "intern digital innovation office quality assurance",
+          "dorval qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rivian and volkswagen group technologies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada8c494c3adc437cece34a"
+      ],
+      "signatures": [
+        [
+          "software developer intern vehicle controls",
+          "vancouver bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada4d0154bbabbab0714a7a"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada81ca54bbabbab07171b2"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "intel",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada62244c3adc437cecc473"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cibc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada350a54bbabbab0713887"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rakuten kobo",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada36c4950ef68d51855015"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada253103d2da75289121ad"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad939ade4b94611ab854571"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "kinaxis",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa13137500b01124c77bbec"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "infinity ward",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad91b38e4b94611ab8530a5"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "systra canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad912b5e4b94611ab852b84"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "systra canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad912b1950ef68d5184db94"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amazon",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abc6ef8fbb3359bcc7d1ec9"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "the citco group",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad647a1950ef68d51837dbe"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "people",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abbf268a9a644f965689126"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rivian and volkswagen group technologies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad7bb00950ef68d518434b0"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "thomson reuters",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a834bcd9b859b227766dda8"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "hitachi rail",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad80f56e4b94611ab84b6cb"
+      ],
+      "signatures": [
+        [
+          "ai intern supply chain 12months",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "beenox",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad9344b54bbabbab070dc32"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "picton investments",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad907d4e4b94611ab8520db"
+      ],
+      "signatures": [
+        [
+          "intern data developer 8 months",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "lyft",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abadf393db4ca81fc7c5078"
+      ],
+      "signatures": [
+        [
+          "business systems developer intern finance technology",
+          "toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "general dynamics mission systemscanada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ab2977d8254c44790e55d99"
+      ],
+      "signatures": [
+        [
+          "intern software developer 4 8 months",
+          "cole harbour ns",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "electronic arts ea",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abb25353db4ca81fc7c6f48"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "hitachi energy",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad7c8a43dc655658d8effee"
+      ],
+      "signatures": [
+        [
+          "ai intern supply chain 12months",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad67bbf3dc655658d8e67af"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "electronic arts ea",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac96d66af788e6ad3b5b74c"
+      ],
+      "signatures": [
+        [
+          "c gameplay software developer intern fc vancouver 8 months undergrad",
+          "vancouver bc burnaby bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "electronic arts ea",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac96d73fe8f33a85d503d71"
+      ],
+      "signatures": [
+        [
+          "c generalist software developer intern fc vancouver 8 months undergrad",
+          "vancouver bc burnaby bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "honeywell technologies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad6358a3dc655658d8e33fb"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad6432c52aa6152bb693069"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "munich re",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad5f44f52aa6152bb69036f"
+      ],
+      "signatures": [
+        [
+          "women in tech program global it intern toronto 4 months",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bitgo",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad5c291e4b94611ab835b7a"
+      ],
+      "signatures": [
+        [
+          "software developer intern prime trade",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bitgo",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad5c28e361c015bf0cfa6dc"
+      ],
+      "signatures": [
+        [
+          "software developer intern settlement systems go network",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bitgo",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad5c285e4b94611ab835b67"
+      ],
+      "signatures": [
+        [
+          "software developer intern custody",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "manulife",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad65d2de4b94611ab83de88"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "nuovo artistic photography",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad68472950ef68d5183ad10"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a6b2f63ca1f9338465f9270"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad2a0ed25289a0b3bf57f7a"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "connor clark lunn infrastructure",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a71b21d71acd469eeda3c57"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "general dynamics mission systemscanada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9aea26fe45b8490f604d96"
+      ],
+      "signatures": [
+        [
+          "intern software developer 4 8 months",
+          "ottawa on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "forest products association of canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad90914e4b94611ab8523d4"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "definity",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad1092418608b6f36f80e29"
+      ],
+      "signatures": [
+        [
+          "cloud developer intern",
+          "waterloo on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "systra",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad12223e2d41540d4a6e879"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "hitachi rail",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad01fb0fe7a9bd5a6b9baab"
+      ],
+      "signatures": [
+        [
+          "itv automation specialist intern 12months",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9874be11f73b6462c8ec3d",
+        "https://jobright.ai/jobs/info/6aa9063eeff87f571fc982e2"
+      ],
+      "signatures": [
+        [
+          "long term ags libraries intern",
+          "calgary ab",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "solink",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acfe242c0dd9da253cf5077"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "manulife",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acfd87dc9f40bec907fe707"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "hitachi energy",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acfdc3dc9f40bec907fe815"
+      ],
+      "signatures": [
+        [
+          "itv automation specialist intern 12months",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "manulife",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad076b0182a457110264f18"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "electronic arts ea",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac93522af788e6ad3b5a78a"
+      ],
+      "signatures": [
+        [
+          "software developer intern 8 months sports technology undergraduate",
+          "vancouver bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "d2l",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ace7c354f3229123da3c499"
+      ],
+      "signatures": [
+        [
+          "software developer intern vancouver",
+          "vancouver bc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "systra",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ace55e2ba99f15ef41242a8"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "systra",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ace55c34f3229123da3b5f8"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a96893426613756de6d8819",
+        "https://jobright.ai/jobs/info/6a967c0eb22f636c81412e9d"
+      ],
+      "signatures": [
+        [
+          "long term firmware developer intern",
+          "vancouver bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a96897f455eaf6a08c17e83"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9688d269b865490a632858",
+        "https://jobright.ai/jobs/info/6a967c09e4e60e4b8da59198"
+      ],
+      "signatures": [
+        [
+          "long term firmware developer intern",
+          "markham on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a968939b22f636c81413182"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa9037083a6750b1adfa9bd",
+        "https://jobright.ai/jobs/info/6a967bf769b865490a63256e"
+      ],
+      "signatures": [
+        [
+          "long term software developer intern",
+          "markham on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a96899126613756de6d8853",
+        "https://jobright.ai/jobs/info/6a967bfe26613756de6d8506"
+      ],
+      "signatures": [
+        [
+          "long term machine learning artificial intelligence intern",
+          "markham on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a968901d13b4819f39dc4eb",
+        "https://jobright.ai/jobs/info/6a967bdf26613756de6d84fa"
+      ],
+      "signatures": [
+        [
+          "long term software test developer intern",
+          "markham on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a968943b22f636c81413189"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9688d6d13b4819f39dc4e0",
+        "https://jobright.ai/jobs/info/6a967bf169b865490a632567"
+      ],
+      "signatures": [
+        [
+          "long term graphics software developer intern",
+          "markham on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "workday",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac9a942b359df915566abf4"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ace4eb4a0453f9ba6247e20"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ace4ec2ba99f15ef4124108"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "manulife",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acd564ae7a1d93332111414"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "karbon digital",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/69f3b533461b9b613a623a09"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "karbon digital",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a546dc8c8eb0843027afe85"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "virtusa",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac9d7a554d2d210b6dd11b2"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "procogia",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac8fd836355f8776ff16cb7"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "lockheed martin",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac6a2f3d9621c5b283a9f8e"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "well health technologies corp tsx well",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac816f151a1b3e4219f0453"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "peripheral",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aea0e61913589212b1f2b84"
+      ],
+      "signatures": [
+        [
+          "i ml research intern reconstruction",
+          "toronto on",
+          "2027-spring"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "astera labs",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac74589d9621c5b283ac21c"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "astera labs",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac745824ac55253f5d7d812"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "manulife",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac7ef6ba444ac5d36f86b4a"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "zip",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a8dd3cdd34f700f87fd6485"
+      ],
+      "signatures": [
+        [
+          "software developer intern",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "google",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa80535654b2a9424cfa1d9"
+      ],
+      "signatures": [
+        [
+          "intern researcher bs ms winter",
+          "waterloo on toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "birdseye security solutions",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad909e9950ef68d5184d615"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "flexspring",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad90938950ef68d5184d43b"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "coveo",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac51b4b0e027c0f3b3acd24"
+      ],
+      "signatures": [
+        [
+          "software developer intern solutions developer core team",
+          "montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "google",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a8c016625fc4e7ae3db6b5f"
+      ],
+      "signatures": [
+        [
+          "research intern phd",
+          "toronto on waterloo on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "google",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9fc7d668f82b403673dbeb"
+      ],
+      "signatures": [
+        [
+          "research intern phd",
+          "montreal qc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "procogia",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a3190ac0ff23769fdb1eaeb"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cgi",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae43d0efb2cd420ace56ce0"
+      ],
+      "signatures": [
+        [
+          "intern bi developer 4 months",
+          "saguenay qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "fgf brands",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac3fb06372c01f6cd73334b"
+      ],
+      "signatures": [
+        [
+          "data developer cerebro intern",
+          "greater toronto area on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "stripe",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a95fec94c22023a07937674"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "birdseye security solutions",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad90a1ae4b94611ab852632"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "ts imagine",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abd8c87372c01f6cd72126c"
+      ],
+      "signatures": [
+        [
+          "financial technology interns",
+          "montreal qc",
+          "2027-spring"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "coveo",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abec164064da25272e029a3"
+      ],
+      "signatures": [
+        [
+          "corporate business intelligence intern",
+          "montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "coveo",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abec14e8ff3fb9b3bc758ba"
+      ],
+      "signatures": [
+        [
+          "corporate business intelligence intern",
+          "qc city qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "4ag robotics",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aac29e72e757fcb5c8b40d4"
+      ],
+      "signatures": [
+        [
+          "robotics software intern",
+          "salmon arm bc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a968f99b22f636c81413317"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "birdseye security solutions",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad90a1767bec1d0d9c82a47"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abd9134064da25272dfe74b"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "prime freight logistics",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abc2ab13217d1d13329da89"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "coveo",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abafbb5ee0b348be729c72e"
+      ],
+      "signatures": [
+        [
+          "frontend developer intern",
+          "qc city qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "coveo",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abafb813db4ca81fc7c57fc"
+      ],
+      "signatures": [
+        [
+          "frontend developer intern",
+          "montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "croesus",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aba61a1be5f1e93251153bb"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6abacb1e3db4ca81fc7c482c"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "croesus",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aba6295ee0b348be729951a"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "j d irving",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ab55a11634ec6aa7c0ce7d9"
+      ],
+      "signatures": [
+        [
+          "network analyst intern",
+          "saint john nb",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "sap",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a990fc811f73b6462c9037e"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "electronic arts ea",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ab41d2e0e0ae54eeea46ba4"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cerebras",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa873c83a9f0a4fe6f1968c"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "sap",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a7a37dcbb6ca93ae561a905"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cresta",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a5293098ef95364ead8efaa"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cresta",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a51e7ed78e364789ca5e9af"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a968f96e4e60e4b8da5962e"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cresta",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a52612b8576ec69c014badb"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "general dynamics mission systemscanada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9b1742fe45b8490f606ccc"
+      ],
+      "signatures": [
+        [
+          "copy of intern software developer 4 8 months",
+          "cole harbour ns",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "tornatech",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aac78af636cddf7396f4349"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "tornatech",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad906dcb0725dc268dd8a05"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "fashionx magazine",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad3b158810010ec72f5c7ce"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a6b2f4b5c54bc4752ce7c0d"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bree",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a57b441f7517b519ad5c707"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "peripheral",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aaaff9676707040fb083833"
+      ],
+      "signatures": [
+        [
+          "i ml developer intern reconstruction",
+          "toronto on",
+          "2027-spring"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "peripheral",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aaaf09676707040fb083343"
+      ],
+      "signatures": [
+        [
+          "i embedded systems developer intern capture systems",
+          "toronto on",
+          "2027-spring"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "peripheral",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aaaf09376707040fb083335"
+      ],
+      "signatures": [
+        [
+          "i ml developer intern infrastructure",
+          "toronto on",
+          "2027-spring"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "peripheral",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aaaf0708e1bf0f764af767d"
+      ],
+      "signatures": [
+        [
+          "i ml developer intern motion capture",
+          "toronto on",
+          "2027-spring"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "celestica",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac87a2a6355f8776ff15376"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "google",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa9d3ce28e24cb38513c8d8"
+      ],
+      "signatures": [
+        [
+          "intern researcher phd winter",
+          "waterloo on toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "fgf brands",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa96083eff87f571fc996af"
+      ],
+      "signatures": [
+        [
+          "it qa mobile testing intern",
+          "greater toronto area on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "general dynamics mission systemscanada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa404f4f7baf881567cccde"
+      ],
+      "signatures": [
+        [
+          "intern systems developer 4 8 months",
+          "cole harbour ns",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "xanadu",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adfbef2065c4e77efafb1c9"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "google",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa821b12ed333b4ea5cd6a0"
+      ],
+      "signatures": [
+        [
+          "intern researcher phd winter",
+          "montreal qc",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a968f9e455eaf6a08c18000"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "andromeda software",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa8a3d1e52865942acfd035"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a968a16e4e60e4b8da594fa"
+      ],
+      "signatures": [
+        [
+          "long term software developer intern",
+          "calgary ab",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a592b3ac8e3a473cb8a5750"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "general dynamics mission systemscanada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa4146b8275e3a21175ecf1"
+      ],
+      "signatures": [
+        [
+          "intern systems developer 4 8 months",
+          "cole harbour ns ottawa on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cgi",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa69c5b654b2a9424cf7f9f"
+      ],
+      "signatures": [
+        [
+          "intern ai developer and analysis 8 months",
+          "montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "canadian natural resources limited cnrl",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa4d8db42411952ff9a5cb0"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "giro",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa393f25c11cce360364e85"
+      ],
+      "signatures": [
+        [
+          "software developer quality assurance and ai intern",
+          "montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amazon",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6930d6cf4c474121999e96d3"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "fgf brands",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa07d925b2d5633ef3bf060"
+      ],
+      "signatures": [
+        [
+          "data pipeline developer intern",
+          "vaughan on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "fgf brands",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa07d6bea127c379469787d"
+      ],
+      "signatures": [
+        [
+          "ai solutions developer intern",
+          "greater toronto area on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "fgf brands",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa07d69dbc0e60e37e0e12b"
+      ],
+      "signatures": [
+        [
+          "it software qa automation intern",
+          "vaughan on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "fgf brands",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa07d68ea127c3794697874"
+      ],
+      "signatures": [
+        [
+          "process automation developer intern",
+          "vaughan on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "jonas software",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa077b1a2266b538d23092f"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "astera labs",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a410e849dd7f954cafe887c"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "textron aviation",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a6087cf2a30b8563787448a"
+      ],
+      "signatures": [
+        [
+          "stage automne 2026 technologie de l information intern information technology mirabel qc",
+          "mirabel qc",
+          "2026-fall"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "giro",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a95da02cabc9f6703e1a5ce"
+      ],
+      "signatures": [
+        [
+          "software developer intern algorithms and operations research",
+          "montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "knok me",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9c78fc2c964816f65e9500"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "general dynamics mission systemscanada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9aea249c24314c35f95d1c"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "general dynamics mission systemscanada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9982bd90a313642c650a3f"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "dawson partners",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae32724d7424a2a828ddf5e"
+      ],
+      "signatures": [
+        [
+          "software developer intern",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "dawson partners",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae32711d7424a2a828ddf58"
+      ],
+      "signatures": [
+        [
+          "software developer intern",
+          "toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "geotab",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a9831b9dd171c7285790aa9"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "textron",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a97e00e72b96b1c436f18e1",
+        "https://jobright.ai/jobs/info/6a34cd31649fdf16292f7402"
+      ],
+      "signatures": [
+        [
+          "stage automne 2026 technologie de l information intern information technology mirabel qc",
+          "mirabel qc",
+          "2026-fall"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a96896869b865490a63287d"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "general dynamics mission systemscanada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a974797246d697dcee04a74"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a968f9669b865490a632a16"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a967bead13b4819f39dc1f4"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "dawson partners",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae32711d45dc30fb7d279af"
+      ],
+      "signatures": [
+        [
+          "machine learning",
+          "toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a5358178ef95364ead91e62"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "trench group",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a92cb20c12c90443efca4ed"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "trench group",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a92cb1bd18f75674827c40d"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rootly",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a7f921b19ce4e6e9d93949b"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "shyftlabs",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a5fc41a33ef5c58b4ffffc3"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "sanctuary ai",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a767a77b17cba569035e62b"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "q block computing",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a5333d4e726ec56126a6084"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "synopsys",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a4c50706189f64e437f1c57"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "brandcurb",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a54a74a8a74e077472fc832"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "fujitsu",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a8ddcaa25fc4e7ae3dbe3d4"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "northeading technologies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a62e7d399515267a6f0075f"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "freelancerprox",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a615ab1eaa37f43e7588318"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "andromeda software",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a60d65197c51d628eb3a977"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "presto",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a509e3cd5d2a327b664c2c5"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "georgian",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a5690f2f7517b519ad56837"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "synopsys",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a478cb84f64ba41dcb5706b"
+      ],
+      "signatures": [
+        [
+          "intern lumerical photonics software developer intern c",
+          "vancouver bc",
+          "2026-fall"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a312f8cc477a5075f48b4b0"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "qa consultants",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a4c66134eb370649b27d1e1"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a2061014bdf8a5a96bd04a1"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "synopsys",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a509be55165966a116194d4"
+      ],
+      "signatures": [
+        [
+          "r d verification intern",
+          "waterloo on",
+          "2026-fall"
+        ]
+      ],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "acceldata",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/69fedb72fa1aa73213d89c15"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aim defence",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a21dc86c00e701fe83715b3"
+      ],
+      "signatures": [],
+      "status": "seen",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
   "_source_baselines": {
-    "canadianlist": true
+    "canadianlist": true,
+    "internlist": true
   }
 }
