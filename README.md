@@ -1,6 +1,6 @@
 # Intern Pal
 
-A small Python job-discovery bot that sends Canadian internship notifications to Discord. No database or web interface is required. The existing GitHub Actions workflow runs every 30 minutes.
+A small Python job-discovery bot that sends Canadian internship notifications to Discord. No database or web interface is required. The workflow supports hourly external dispatch, with native GitHub cron as a best-effort backup; see [scheduling setup](docs/scheduling.md).
 
 ## Run
 
@@ -21,7 +21,7 @@ A unique opportunity is sent to **the general channel once**, even if several so
 To inspect live sources without Discord calls or state writes:
 
 ```sh
-.venv/bin/python scripts/check_sources.py cibc rbc bmo td scotiabank shopify google amazon
+.venv/bin/python scripts/check_sources.py cibc rbc bmo td scotiabank shopify google amazon canadianlist
 ```
 
 To preview the complete notification pipeline, including deduplication against existing history:
@@ -37,6 +37,7 @@ For normal operation, set `DISCORD_WEBHOOK_GENERAL` and run `python notify_canad
 | Source | Official board and retrieval method |
 | --- | --- |
 | SimplifyJobs | Existing Summer2026 repository URL, section, Canada filter and age behavior retained. Only two confirmed parsing bugs changed: missing links no longer inherit another role's URL, and company inheritance is resolved before location filtering. |
+| Canadian Internship List | [Bobwillrule/Canadian-Internship-List](https://github.com/Bobwillrule/Canadian-Internship-List): the complete public README table, across all terms and disciplines, with no posting-age cutoff. Closed/missing links and unverified Canadian locations are skipped. Known shortened application links are resolved before duplicate matching. Like SimplifyJobs, this source trusts list curation rather than applying the corporate full-description classifier. |
 | AMD | Existing watcher retained; notifications go to general and participate in shared deduplication. Its existing extraction/filtering behavior is unchanged. |
 | CIBC | [Campus](https://cibc.wd3.myworkdayjobs.com/campus): paginated Workday CXS search, Canadian country facet, then full job details. |
 | RBC | [Early Talent](https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1): same Workday adapter; all pages, then full details. |
@@ -58,6 +59,17 @@ Live checks on November 5, 2026 found 3 accepted CIBC roles, 6 RBC roles, and 4 
 Technical duties require action/object evidence (for example, building software or data pipelines, writing code/tests, provisioning cloud infrastructure, or performing security assessments) with technical skill corroboration. Unconventional titles need stronger responsibility evidence. Developer innovation programmes can qualify when they explicitly require delivering a functional prototype plus programming and software-development skills. Each decision has a reason.
 
 This is a deterministic evidence filter, not a general natural-language classifier. Ambiguous postings and unsupported wording can be missed; positive and negative fixtures should accompany any future rule changes. SimplifyJobs and AMD keep their previous source-specific eligibility behavior.
+
+The Canadian Internship List is intentionally broader: it includes winter, summer,
+fall, hardware, product, and graduate placements present in that list. Its posting
+date is informational and is not subject to SimplifyJobs' `0d` rule. Existing
+notification history suppresses recognized duplicates. The first successful scan
+records the list's current entries as `seen` without announcing the backlog; future
+additions are eligible for notification. The one-time baseline is saved atomically
+in the shared ledger before any messages are sent, and persists across restarts.
+Existing `sent` and `pending` records retain their status. Do not reset the baseline
+or history to retry a fetch. An application link in a curated list is not a guarantee
+that the employer still has the role open.
 
 ## Shared history and delivery
 

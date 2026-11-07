@@ -58,9 +58,12 @@ class NotificationRoutingTests(unittest.TestCase):
                             for j in Ledger(self.path, None).jobs))
 
     def test_all_sources_share_general_and_duplicates_stay_suppressed_after_restart(self):
+        # This test exercises delivery after the new source's first-scan baseline.
+        self.ledger.state['_source_baselines'] = {'canadianlist': True}
         companies = {'simplifyjobs': 'Example', 'amd': 'AMD', 'cibc': 'CIBC',
                      'rbc': 'RBC', 'bmo': 'BMO', 'td': 'TD', 'scotiabank': 'Scotiabank',
-                     'shopify': 'Shopify', 'google': 'Google', 'amazon': 'Amazon'}
+                     'shopify': 'Shopify', 'google': 'Google', 'amazon': 'Amazon',
+                     'canadianlist': 'Canadian List Employer'}
         jobs = [posting(source=source, company=companies[source], job_id=str(2000+i),
                         location='Toronto, ON, Canada', url=f'https://example.test/jobs/{2000+i}',
                         age='0d' if source == 'simplifyjobs' else None)

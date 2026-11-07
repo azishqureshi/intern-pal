@@ -12,7 +12,7 @@ from utils import (
     location_is_canada_amd,
     send_discord_webhook,
 )
-from watchers import amd, amazon, banks, cibc, google, scotiabank, shopify, simplifyjobs
+from watchers import amd, amazon, banks, canadianlist, cibc, google, scotiabank, shopify, simplifyjobs
 
 STATE_FILE = "state.json"
 
@@ -27,7 +27,12 @@ WATCHERS = {
     "shopify": shopify.fetch_postings,
     "google": google.fetch_postings,
     "amazon": amazon.fetch_postings,
+    "canadianlist": canadianlist.fetch_postings,
 }
+
+# Curated lists provide summary rows; full-description checks apply to employer
+# adapters. AMD retains its original source-specific checks.
+CURATED_SOURCES = {"simplifyjobs", "canadianlist"}
 
 CHANNELS = [
     {
@@ -124,11 +129,14 @@ def run_all_watchers() -> List[Posting]:
 
 def process_postings(all_postings, ledger, dry_run=False):
     """Group first so a verified official listing can supply the application URL."""
+    remembered = ledger.baseline_source('canadianlist', all_postings)
+    if remembered is not None:
+        prefix = 'DRY RUN ' if dry_run else ''
+        print(f"{prefix}canadianlist: marked {remembered} existing entries as seen; notifying future additions only")
     groups = {}
-    # Corporate records first allow same-scan official URL preference, including
-    # when the general channel's age rule only admits the SimplifyJobs member.
-    for posting in sorted(all_postings, key=lambda p: p.source == "simplifyjobs"):
-        if posting.source not in ("simplifyjobs", "amd") and not classify(posting).accepted:
+    # Employer records first let curated-list copies share their verified URL.
+    for posting in sorted(all_postings, key=lambda p: p.source in CURATED_SOURCES):
+        if posting.source not in CURATED_SOURCES | {"amd"} and not classify(posting).accepted:
             continue
         if not posting.url:
             continue

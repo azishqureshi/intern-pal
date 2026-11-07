@@ -177,8 +177,12 @@ class Ledger:
         self.jobs = self.state['_jobs']
         if not isinstance(self.jobs, list):
             raise ValueError('Invalid job ledger')
+        baselines = self.state.get('_source_baselines', {})
+        if not isinstance(baselines, dict) or any(
+                not isinstance(k, str) or v is not True for k, v in baselines.items()):
+            raise ValueError('Invalid source baseline history')
         for job in self.jobs:
-            if not isinstance(job, dict) or job.get('status') not in ('discovered', 'pending', 'sent'):
+            if not isinstance(job, dict) or job.get('status') not in ('discovered', 'pending', 'sent', 'seen'):
                 raise ValueError('Invalid ledger record')
             if not isinstance(job.get('company'), str) or not isinstance(job.get('channel'), str):
                 raise ValueError('Invalid ledger identity')
@@ -226,7 +230,7 @@ class Ledger:
         if exact:
             # An exact alias always wins over ambiguous metadata. Prefer an
             # existing delivery record if old data contains redundant aliases.
-            matches = [min(exact, key=lambda j: {'sent': 0, 'pending': 1, 'discovered': 2}[j['status']])]
+            matches = [min(exact, key=lambda j: {'sent': 0, 'pending': 1, 'seen': 2, 'discovered': 3}[j['status']])]
         # A missing-ID listing matching multiple different requisitions is
         # ambiguous, so don't silently join those jobs together.
         if len(matches) == 1:
@@ -238,6 +242,27 @@ class Ledger:
         if posting.source not in record['sources']:
             record['sources'].append(posting.source)
         return record
+
+    def baseline_source(self, source, postings):
+        """Remember an initial source snapshot without claiming Discord delivery.
+
+        This changes memory only; the caller saves it before sending anything.
+        An absent/failed source must not initialize its baseline.
+        """
+        baselines = self.state.get('_source_baselines', {})
+        if baselines.get(source):
+            return None
+        initial = [p for p in postings if p.source == source and p.url]
+        if not initial:
+            return None
+        remembered = 0
+        for posting in initial:
+            record = self.observe(posting)
+            if record['status'] == 'discovered':
+                record['status'] = 'seen'
+                remembered += 1
+        self.state.setdefault('_source_baselines', {})[source] = True
+        return remembered
 
     def save(self):
         self.path.parent.mkdir(parents=True, exist_ok=True)
