@@ -11,9 +11,11 @@ This intentionally permits extra scans; it does not promise exactly one scan/hou
 If native scheduling later recovers, either disable the external job or remove
 native `schedule` after a measured observation period.
 
-**Status: prepared locally, not deployed or verified automatically.** Creating a
-successful dispatch manually is only an integration check. The external account,
-token and scheduled job must still be configured by the repository owner.
+**Status: repository changes deployed to `main`; external scheduler not yet
+configured or verified automatically.** Creating a successful dispatch manually
+is only an integration check. The external account, token and scheduled job
+must still be configured by the repository owner. Native cron remains a
+best-effort hourly backup until that setup is complete.
 
 ## Independently retrieved evidence (November 7, 2026)
 
