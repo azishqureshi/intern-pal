@@ -17366,6 +17366,71 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adc854d9e3e874dbfba45ac"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adc854e5dc7953215a370af"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "revvity",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae4c794fb2cd420ace598fd"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cibc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae507f0fb2cd420ace5c341"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "canadian natural resources limited cnrl",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aa5ccdf82e82a31997be8e1"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
