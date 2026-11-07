@@ -6,6 +6,7 @@ A bot that tracks Canadian internships and co-ops and posts new listings to Disc
 | --- | --- |
 | [SimplifyJobs](https://github.com/SimplifyJobs/Summer2027-Internships) | Canadian roles in the software engineering internship list |
 | [Canadian Internship List](https://github.com/Bobwillrule/Canadian-Internship-List) | Canadian tech internships and co-ops across all terms |
+| [Intern List](https://www.intern-list.com/) | Canadian software engineering internships |
 | [AMD](https://careers.amd.com/jobs?categories=Student%20%2F%20Intern%20%2F%20Temp&country=Canada) | Canadian student and internship roles |
 | [CIBC](https://cibc.wd3.myworkdayjobs.com/campus) | Campus internships and co-ops |
 | [RBC](https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1) | Early talent internships and co-ops |

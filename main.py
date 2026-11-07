@@ -12,7 +12,7 @@ from utils import (
     location_is_canada_amd,
     send_discord_webhook,
 )
-from watchers import amd, amazon, banks, canadianlist, cibc, google, scotiabank, shopify, simplifyjobs
+from watchers import amd, amazon, banks, canadianlist, cibc, google, internlist, scotiabank, shopify, simplifyjobs
 
 STATE_FILE = "state.json"
 
@@ -28,11 +28,12 @@ WATCHERS = {
     "google": google.fetch_postings,
     "amazon": amazon.fetch_postings,
     "canadianlist": canadianlist.fetch_postings,
+    "internlist": internlist.fetch_postings,
 }
 
 # Curated lists provide summary rows; full-description checks apply to employer
 # adapters. AMD retains its original source-specific checks.
-CURATED_SOURCES = {"simplifyjobs", "canadianlist"}
+CURATED_SOURCES = {"simplifyjobs", "canadianlist", "internlist"}
 
 CHANNELS = [
     {
@@ -129,10 +130,11 @@ def run_all_watchers() -> List[Posting]:
 
 def process_postings(all_postings, ledger, dry_run=False):
     """Group first so a verified official listing can supply the application URL."""
-    remembered = ledger.baseline_source('canadianlist', all_postings)
-    if remembered is not None:
-        prefix = 'DRY RUN ' if dry_run else ''
-        print(f"{prefix}canadianlist: marked {remembered} existing entries as seen; notifying future additions only")
+    for source in ('canadianlist', 'internlist'):
+        remembered = ledger.baseline_source(source, all_postings)
+        if remembered is not None:
+            prefix = 'DRY RUN ' if dry_run else ''
+            print(f"{prefix}{source}: marked {remembered} existing entries as seen; notifying future additions only")
     groups = {}
     # Employer records first let curated-list copies share their verified URL.
     for posting in sorted(all_postings, key=lambda p: p.source in CURATED_SOURCES):
