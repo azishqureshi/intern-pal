@@ -2,8 +2,8 @@ name: Notify Canada Internships
 
 on:
   schedule:
-    # Runs every 30 minutes
-    - cron: "*/30 * * * *"
+    # Runs every 5 minutes
+    - cron: "*/5 * * * *"
   workflow_dispatch: # manual trigger possible
 
 permissions:
