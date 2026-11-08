@@ -17431,6 +17431,58 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "aptiv",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adc854e0a4cc7090f9775d4"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "celestica",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ac8afbac3a8af9c54a07626"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cibc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada785e03d2da7528915c7c"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "manulife",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6acd5649ddd23cce28a11e93"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
