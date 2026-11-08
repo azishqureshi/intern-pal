@@ -17509,6 +17509,45 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "microsoft",
+      "ids": [],
+      "urls": [
+        "https://apply.careers.microsoft.com/careers/job/1970393557021552?hl=en"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "microsoft",
+      "ids": [],
+      "urls": [
+        "https://apply.careers.microsoft.com/careers/job/1970393557021518?hl=en"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "microsoft",
+      "ids": [],
+      "urls": [
+        "https://apply.careers.microsoft.com/careers/job/1970393557040927?hl=en"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
     }
   ],
   "_version": 2,
