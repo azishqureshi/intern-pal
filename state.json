@@ -17574,6 +17574,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "kinaxis",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af0b40e7bf8e8b9eaf83402"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "skyworks solutions",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aac90ae3e3ce93970c7de5c"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
