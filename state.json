@@ -17483,6 +17483,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "revvity",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae4c79377c09cb3bd4ae977"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6adf66ee9e3e874dbfbabded"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
