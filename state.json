@@ -17548,6 +17548,19 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "revvity",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae4c798d45dc30fb7d32068"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
