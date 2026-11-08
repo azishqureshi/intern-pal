@@ -16,3 +16,12 @@ A bot that tracks Canadian internships and co-ops and posts new listings to Disc
 | [Shopify](https://www.shopify.com/careers/jobs) | Internship listings and program openings |
 | [Google](https://www.google.com/about/careers/applications/jobs/results/?location=Canada&employment_type=INTERN) | Canadian internships |
 | [Amazon / AWS](https://www.amazon.jobs/en/search.json?normalized_country_code%5B%5D=CAN) | Canadian technical internships |
+
+Intern List uses the site's `intern:ca:swe` feed, with additional software-role
+checks because that category also contains unrelated jobs. Alerts require a
+source posting timestamp within the last 48 hours (configure with
+`INTERNLIST_MAX_AGE_HOURS`, a positive integer). Missing, invalid, and future
+timestamps are not eligible. Alerts display the source timestamp in UTC.
+This window is independent of SimplifyJobs' `MAX_AGE_DAYS_GENERAL` setting.
+The first successful scan remains a silent baseline; existing notification
+history is preserved, and previously seen jobs are not replayed.

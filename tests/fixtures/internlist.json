@@ -1,0 +1,331 @@
+[
+  {
+    "jobId": "6ad28bb7c4290cef1412b835",
+    "tabCategory": [
+      "intern:ca:ml_ai",
+      "intern:ca:swe"
+    ],
+    "properties": {
+      "title": "AI/ML Software Engineer Intern (Summer 2027 - 8-Months - Masters - QVS)",
+      "company": "Electronic Arts (EA)",
+      "location": "Vancouver, BC",
+      "salary": "CAD65000-CAD70000/yr",
+      "workModel": "Hybrid",
+      "industry": [
+        "Gaming"
+      ],
+      "companySize": "10000+",
+      "qualifications": "1. You must be legally authorized to work in Canada for the entire internship - visa sponsorship is not available.\n2. You must be a Masters student enrolled in an accredited degree program and return to school for at least one semester following your internship with EA.\n3. You must be graduating in May 2028 or later, including the time needed to complete your internship.\n...",
+      "expLevel": null,
+      "jobFunction": null,
+      "h1bSponsored": "No",
+      "isNewGrad": false,
+      "roleType": null,
+      "hireTime": "2027",
+      "graduateTime": "2028-May"
+    },
+    "postedAt": 1794042081000
+  },
+  {
+    "jobId": "6aee333acaf8e660b87dcc7f",
+    "tabCategory": [
+      "intern:ca:swe"
+    ],
+    "properties": {
+      "title": "FY27 Intern - Software Validation Engineering Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "location": "Markham, ON",
+      "salary": "$54600-$103350/yr",
+      "workModel": "On Site",
+      "industry": [
+        "Semiconductor",
+        "Embedded Software"
+      ],
+      "companySize": "10000+",
+      "qualifications": "1. Excellent programming skills in Python, Perl, C/C++\n2. Ability to debug, root cause, and resolve issues spanning multiple subsystems.\u202f Proven ability to own problems and drive them to a resolution\n3. Basic understanding in Computer Architecture/microarchitecture concepts\n...",
+      "expLevel": null,
+      "jobFunction": null,
+      "h1bSponsored": "No",
+      "isNewGrad": false,
+      "roleType": null,
+      "hireTime": "2027-May",
+      "graduateTime": "2028-November"
+    },
+    "postedAt": 1794041244000
+  },
+  {
+    "jobId": "6ad0f996256e49282e651414",
+    "tabCategory": [
+      "intern:ca:engineering_development",
+      "intern:ca:ml_ai",
+      "intern:ca:swe"
+    ],
+    "properties": {
+      "title": "AI & Robotics Intern",
+      "company": "Trench Group",
+      "location": "Toronto, ON; Pickering, ON",
+      "salary": "CAD22-CAD30/hr",
+      "workModel": "On Site",
+      "industry": [
+        "Energy",
+        "Robotics",
+        "Artificial Intelligence (AI)"
+      ],
+      "companySize": "1001-5000",
+      "qualifications": "1. Currently pursuing a degree in Robotics, Computer Science, Electrical or Computer Engineering, Mechatronics, or a related field.\n2. Working knowledge of robotics fundamentals and computer vision.\n3. Proficiency in programming languages such as C++ and Python.\n...",
+      "expLevel": null,
+      "jobFunction": null,
+      "h1bSponsored": "No",
+      "isNewGrad": false,
+      "roleType": null,
+      "hireTime": "",
+      "graduateTime": ""
+    },
+    "postedAt": 1794021320000
+  },
+  {
+    "jobId": "6ab4301155e9168cf5ea4e4a",
+    "tabCategory": [
+      "intern:ca:swe"
+    ],
+    "properties": {
+      "title": "FY27 Intern - PAL Firmware Development Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "location": "Markham, ON",
+      "salary": "N/A",
+      "workModel": "On Site",
+      "industry": [
+        "Embedded Software",
+        "Semiconductor"
+      ],
+      "companySize": "10000+",
+      "qualifications": "1. * Excellent programming skills in C, Python\n2. * Sound knowledge of embedded development; RTOS concepts\n3. * Ability to debug, root cause, and resolve FW issues spanning multiple subsystems in an SoC.\u202f Proven ability to own problems and drive them to a resolution\n...",
+      "expLevel": null,
+      "jobFunction": null,
+      "h1bSponsored": "Not Sure",
+      "isNewGrad": false,
+      "roleType": null,
+      "hireTime": "2027-May",
+      "graduateTime": "2028-November"
+    },
+    "postedAt": 1794019896000
+  },
+  {
+    "jobId": "6ac98284fe8f33a85d504201",
+    "tabCategory": [
+      "intern:ca:swe"
+    ],
+    "properties": {
+      "title": "Intern Developer, Back End Technologies",
+      "company": "Kinaxis",
+      "location": "Ottawa, ON",
+      "salary": "$25.24-$37.02/hr",
+      "workModel": "On Site",
+      "industry": [
+        "Enterprise Software",
+        "SaaS",
+        "Logistics"
+      ],
+      "companySize": "1001-5000",
+      "qualifications": "1. Students in Computer Science or related programs\n2. Programming experience with one object-oriented programming language (Go, Rust, C++, C# or any other modern language preferred).\n3. Insatiable drive for improving performance\n...",
+      "expLevel": null,
+      "jobFunction": null,
+      "h1bSponsored": "Not Sure",
+      "isNewGrad": false,
+      "roleType": null,
+      "hireTime": "2027-January",
+      "graduateTime": ""
+    },
+    "postedAt": 1794014433000
+  },
+  {
+    "jobId": "6a9a267e1388387060592996",
+    "tabCategory": [
+      "intern:ca:swe"
+    ],
+    "properties": {
+      "title": "Geomatics Engineer Intern",
+      "company": "CNH",
+      "location": "Calgary, AB",
+      "salary": "N/A",
+      "workModel": "On Site",
+      "industry": [
+        "Agriculture",
+        "Construction"
+      ],
+      "companySize": "10000+",
+      "qualifications": "1. Candidates must be  currently enrolled college students actively pursuing a degree\n2. Candidates must be pursuing (at minimum) a Bachelor\u2019s degree in Geomatics Engineering or a related field.",
+      "expLevel": null,
+      "jobFunction": null,
+      "h1bSponsored": "Not Sure",
+      "isNewGrad": false,
+      "roleType": null,
+      "hireTime": "",
+      "graduateTime": ""
+    },
+    "postedAt": 1794013865000
+  },
+  {
+    "jobId": "6ac454904ac55253f5d721d5",
+    "tabCategory": [
+      "intern:ca:cyber_security",
+      "intern:ca:swe"
+    ],
+    "properties": {
+      "title": "Browser Security Engineer Intern, (Winter 2027)",
+      "company": "GeoComply",
+      "location": "Vancouver, BC",
+      "salary": "CAD54000-CAD62000/yr",
+      "workModel": "On Site",
+      "industry": [
+        "Cyber Security"
+      ],
+      "companySize": "251-500",
+      "qualifications": "1. A Master's or PhD-level computer science student or recent grad, or someone with equivalent depth.\n2. A real programmer with research instincts. You've done work where the answer wasn't known in advance.\n3. An understanding of bleeding edge bot detection and fraud strategies, and you want to learn more.\n...",
+      "expLevel": null,
+      "jobFunction": null,
+      "h1bSponsored": "Not Sure",
+      "isNewGrad": false,
+      "roleType": null,
+      "hireTime": "2026-January",
+      "graduateTime": ""
+    },
+    "postedAt": 1793997541000
+  },
+  {
+    "jobId": "6ab441d4d2f5fbd604be2774",
+    "tabCategory": [
+      "intern:ca:cyber_security",
+      "intern:ca:data_science",
+      "intern:ca:ml_ai",
+      "intern:ca:swe"
+    ],
+    "properties": {
+      "title": "2027 Intern Program, Technology Innovation - Future Opportunities",
+      "company": "Bell",
+      "location": "Bedford, NS; Mississauga, ON; Ottawa, ON; Toronto, ON; Montreal, QC",
+      "salary": "N/A",
+      "workModel": "Hybrid",
+      "industry": [
+        "Telecom & Communications"
+      ],
+      "companySize": "10000+",
+      "qualifications": "1. Currently enrolled in a Bachelor's degree, master\u2019s degree, or college diploma in Business Admin, Marketing, Finance, Accounting, Economics, or a related field programs or a related field completed before the program start date.\n2. You are planning on returning back to school in the Fall of 2027.\n3. All candidates must be returning to their studies following the completion of the internship.\n...",
+      "expLevel": null,
+      "jobFunction": null,
+      "h1bSponsored": "Not Sure",
+      "isNewGrad": false,
+      "roleType": null,
+      "hireTime": "",
+      "graduateTime": ""
+    },
+    "postedAt": 1793985257000
+  },
+  {
+    "jobId": "6aa45c14f3aa936e2cdb0f87",
+    "tabCategory": [
+      "intern:ca:swe"
+    ],
+    "properties": {
+      "title": "Co-op Winter 2027  DevOps Engineering - 8-16 Months",
+      "company": "General Dynamics Mission Systems\u2013Canada",
+      "location": "Ottawa, ON; Calgary, AB",
+      "salary": "$24.92-$33.23/hr",
+      "workModel": "Hybrid",
+      "industry": [
+        "National Defense"
+      ],
+      "companySize": "1001-5000",
+      "qualifications": "1. Currently enrolled in a Bachelor\u2019s degree in Software Engineering, Computer Science, or a related field.\n2. Familiarity with computer networking and networking equipment.\n3. Strong written and verbal communication skills.\n...",
+      "expLevel": null,
+      "jobFunction": null,
+      "h1bSponsored": "No",
+      "isNewGrad": false,
+      "roleType": null,
+      "hireTime": "2026",
+      "graduateTime": ""
+    },
+    "postedAt": 1793978203000
+  },
+  {
+    "jobId": "6aeb66b3765815f7d745ff01",
+    "tabCategory": [
+      "intern:ca:ml_ai",
+      "intern:ca:swe"
+    ],
+    "properties": {
+      "title": "Data Science Intern",
+      "company": "Plusgrade",
+      "location": "Toronto, ON",
+      "salary": "N/A",
+      "workModel": "Hybrid",
+      "industry": [
+        "Travel"
+      ],
+      "companySize": "501-1000",
+      "qualifications": "1. You are currently enrolled in a university co-op program in computer science, mathematics, statistics, engineering, or a related quantitative discipline, with an active work term available.\n2. You write clean, functional Python and SQL, with coursework or project experience in machine learning and frameworks like PyTorch or scikit-learn, backed by disciplined Git habits.\n3. You have a relentless curiosity for getting under the hood of systems to figure out why pipelines break, with an active interest in MLOps, model observability, and cloud platforms like AWS.\n...",
+      "expLevel": null,
+      "jobFunction": null,
+      "h1bSponsored": "No",
+      "isNewGrad": false,
+      "roleType": null,
+      "hireTime": "",
+      "graduateTime": ""
+    },
+    "postedAt": 1793977246000
+  },
+  {
+    "jobId": "6ae4c794fb2cd420ace598fd",
+    "tabCategory": [
+      "intern:ca:ml_ai",
+      "intern:ca:swe"
+    ],
+    "properties": {
+      "title": "Full-stack AI Developer Intern",
+      "company": "Revvity",
+      "location": "Canada",
+      "salary": "N/A",
+      "workModel": "Remote",
+      "industry": [
+        "Life Science"
+      ],
+      "companySize": "10000+",
+      "qualifications": "1. You're passionate about artificial intelligence, with a particular interest in how generative AI and large language models (LLMs) can transform business operations.\n2. You're a self-starter, comfortable with ambiguity, and excited by the prospect of applying cutting-edge AI technologies to real-world business challenges.\n3. Strong interest in enterprise AI applications\n...",
+      "expLevel": null,
+      "jobFunction": null,
+      "h1bSponsored": "No",
+      "isNewGrad": false,
+      "roleType": null,
+      "hireTime": "",
+      "graduateTime": ""
+    },
+    "postedAt": 1793385061000
+  },
+  {
+    "jobId": "6ae507f0fb2cd420ace5c341",
+    "tabCategory": [
+      "intern:ca:cyber_security",
+      "intern:ca:swe"
+    ],
+    "properties": {
+      "title": "Corporate Security Coordinator Co-op",
+      "company": "CIBC",
+      "location": "Toronto, ON",
+      "salary": "N/A",
+      "workModel": "On Site",
+      "industry": [
+        "Banking"
+      ],
+      "companySize": "10000+",
+      "qualifications": "1. You must be currently enrolled in post-secondary education and returning to full-time studies to be eligible.\n2. You have a strong ability to convey ideas and information through engaging formats with good presentation and writing skills\n3. Your time management skills are strong, and you can prioritize competing priorities to ensure successful outcomes.\n...",
+      "expLevel": null,
+      "jobFunction": null,
+      "h1bSponsored": "No",
+      "isNewGrad": false,
+      "roleType": null,
+      "hireTime": "",
+      "graduateTime": ""
+    },
+    "postedAt": 1793374099000
+  }
+]

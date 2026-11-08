@@ -3,19 +3,54 @@
 Read every page of the category used by the website. This is an aggregator,
 so its category is discovery evidence, not an employer-verified description.
 """
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 import logging
+import os
 import re
 
 import requests
 
-from filtering import canadian_location, extract_term
+from filtering import BUSINESS_ROLE, DUTIES, SKILLS, canadian_location, extract_term, text
 from models import Posting
 
 SEARCH = 'https://jobright.ai/swan/mini-sites/list'
 CATEGORY = 'intern:ca:swe'
 PAGE_SIZE = 50
 LOG = logging.getLogger(__name__)
+
+
+def software_role(title, qualifications):
+    """Check summary evidence without treating a broad aggregator tag as proof.
+
+    Qualifications are truncated, so clear software titles do not require the
+    full responsibility paragraphs used by the employer-board classifier.
+    """
+    title, qualifications = text(title), text(qualifications)
+    if re.search(BUSINESS_ROLE, title) or re.search(
+            r'\b(?:corporate security|information management|geomatics|future opportunities)\b', title):
+        return False
+    if re.search(r'\b(?:software|developer|programmer|devops|sdet|firmware|'
+                 r'full.stack|back.end|front.end|cybersecurity|browser security|'
+                 r'machine learning|data scien(?:ce|tist)|data engineer(?:ing)?)\b', title):
+        return True
+    # AI/robotics and ambiguous engineering titles need programming evidence.
+    if re.search(r'\b(?:ai|artificial intelligence|robotics)\b', title):
+        return bool(re.search(SKILLS, qualifications))
+    return bool(re.search(SKILLS, qualifications) and
+                any(re.search(pattern, qualifications) for pattern in DUTIES))
+
+
+def is_recent(posting, now=None):
+    """Use source time, never discovery time, for a rolling freshness window."""
+    try:
+        hours = int(os.getenv('INTERNLIST_MAX_AGE_HOURS', '48'))
+        posted = datetime.fromisoformat(posting.posted_at or '')
+        if hours <= 0 or posted.tzinfo is None:
+            return False
+    except (ValueError, TypeError):
+        return False
+    age = (now or datetime.now(timezone.utc)) - posted
+    return timedelta(0) <= age <= timedelta(hours=hours)
 
 
 def _job_id(item):
@@ -50,6 +85,8 @@ def from_job(item):
         posted_at = datetime.fromtimestamp(posted / 1000, timezone.utc).isoformat()
     except (ValueError, OverflowError, OSError) as error:
         raise ValueError('Intern List posting timestamp invalid') from error
+    if not software_role(props['title'], qualifications):
+        return None
     return Posting(
         source='internlist', company=props['company'].strip(), title=props['title'].strip(),
         location=props['location'].strip(), age=None,

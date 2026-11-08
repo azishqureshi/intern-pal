@@ -1,12 +1,14 @@
 import contextlib
 from dataclasses import replace
+from datetime import datetime, timedelta, timezone
+import json
 import io
 from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import Mock, patch
 
-from main import CHANNELS, _posting_matches_channel, process_postings
+from main import CHANNELS, _build_fields, _posting_matches_channel, process_postings
 from tracking import Ledger
 from watchers import internlist
 
@@ -34,6 +36,12 @@ def page(items, total=None):
 
 
 class InternListTests(unittest.TestCase):
+    def setUp(self):
+        clock = patch('watchers.internlist.datetime', wraps=datetime)
+        mocked = clock.start()
+        mocked.now.return_value = datetime(2026, 11, 7, 23, tzinfo=timezone.utc)
+        self.addCleanup(clock.stop)
+
     def test_all_pages_are_retrieved_and_filtered_to_canadian_interns(self):
         session = Mock()
         first = [job(i) for i in range(1, 51)]
@@ -57,18 +65,86 @@ class InternListTests(unittest.TestCase):
         self.assertEqual(result.posted_at, '2026-11-07T08:47:24+00:00')
         self.assertEqual(result.term, '2027-summer')
 
-    def test_winter_and_old_listings_are_not_subject_to_age_or_summer_filters(self):
+    def test_winter_is_allowed_but_old_listings_are_not(self):
         item = job(title='Software Developer Co-op - Winter 2027')
         item['postedAt'] = 1700000000000
         result = internlist.from_job(item)
         self.assertEqual(result.term, '2027-winter')
-        self.assertTrue(_posting_matches_channel(result, CHANNELS[0]))
+        self.assertFalse(_posting_matches_channel(result, CHANNELS[0]))
+        fresh = internlist.from_job(job(title='Software Developer Co-op - Winter 2027'))
+        self.assertTrue(_posting_matches_channel(fresh, CHANNELS[0]))
 
     def test_location_is_verified_instead_of_assuming_category_means_canada(self):
         self.assertIsNone(internlist.from_job(job(location='Remote')))
         self.assertIsNone(internlist.from_job(job(location='San Jose, CA')))
         self.assertIsNotNone(internlist.from_job(job(location='Remote',
                                qualifications='Work remote from Canada.')))
+
+    def test_live_snapshot_matches_recent_software_roles_not_category_noise(self):
+        items = json.loads((Path(__file__).parent / 'fixtures/internlist.json').read_text())
+        accepted = []
+        for item in items:
+            result = internlist.from_job(item)
+            if result and _posting_matches_channel(result, CHANNELS[0]):
+                accepted.append(result.company)
+        self.assertEqual(accepted, ['Electronic Arts (EA)', 'Qualcomm', 'Trench Group',
+                                   'Qualcomm', 'Kinaxis', 'GeoComply',
+                                   'General Dynamics Mission Systems–Canada', 'Plusgrade'])
+
+    def test_reported_non_software_titles_need_more_than_category_or_cs_degree(self):
+        for title in ['Engineering Intern', 'Corporate Security Coordinator Co-op',
+                      'Engineering Information Management Student - Oil Sands',
+                      'Geomatics Engineer Intern']:
+            with self.subTest(title=title):
+                self.assertIsNone(internlist.from_job(job(title=title,
+                    qualifications='Pursuing Computer Science or Engineering. Familiarity with Python.')))
+        self.assertIsNotNone(internlist.from_job(job(title='Engineering Intern',
+            qualifications='Develop software applications in Python.')))
+
+    def test_freshness_boundaries_unknown_future_and_config(self):
+        now = datetime(2026, 11, 7, 23, tzinfo=timezone.utc)
+        result = internlist.from_job(job())
+        for age, accepted in [(timedelta(hours=47), True), (timedelta(hours=48), True),
+                              (timedelta(hours=48, seconds=1), False),
+                              (timedelta(days=7), False), (timedelta(seconds=-1), False)]:
+            with self.subTest(age=age):
+                self.assertEqual(internlist.is_recent(replace(result,
+                    posted_at=(now-age).isoformat()), now), accepted)
+        for timestamp in [None, '', 'invalid', '2026-11-07T12:00:00']:
+            self.assertFalse(internlist.is_recent(replace(result, posted_at=timestamp), now))
+        for hours in ['0', '-1', 'invalid']:
+            with patch.dict('os.environ', {'INTERNLIST_MAX_AGE_HOURS': hours}):
+                self.assertFalse(internlist.is_recent(result, now))
+        with patch.dict('os.environ', {'INTERNLIST_MAX_AGE_HOURS': '1'}):
+            self.assertFalse(internlist.is_recent(result, now))
+        fields = {f['name']: f['value'] for f in _build_fields(result)}
+        self.assertEqual(fields['Posted (UTC)'], result.posted_at)
+
+    def test_old_addition_never_sends_but_fresh_addition_sends_once(self):
+        fresh = internlist.from_job(job())
+        stale = replace(fresh, company='Old Employer', url='https://jobright.ai/jobs/info/'+'f'*24,
+                        posted_at='2026-10-30T12:00:00+00:00')
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'state.json'
+            ledger = Ledger(path, None)
+            ledger.state['_source_baselines'] = {'internlist': True}
+            with patch.dict('os.environ', {'DISCORD_WEBHOOK_GENERAL': 'https://example.test/general'}, clear=True), \
+                    patch('main._send_posting') as send, contextlib.redirect_stdout(io.StringIO()):
+                process_postings([stale, fresh], ledger)
+                send.assert_called_once_with(fresh, 'https://example.test/general')
+                process_postings([stale, fresh], Ledger(path, None))
+                self.assertEqual(send.call_count, 1)
+
+    def test_group_sends_eligible_copy_instead_of_stale_first_member(self):
+        fresh = internlist.from_job(job())
+        stale = replace(fresh, posted_at='2026-10-30T12:00:00+00:00')
+        with tempfile.TemporaryDirectory() as directory:
+            ledger = Ledger(Path(directory) / 'state.json', None)
+            ledger.state['_source_baselines'] = {'internlist': True}
+            with patch.dict('os.environ', {'DISCORD_WEBHOOK_GENERAL': 'https://example.test/general'}, clear=True), \
+                    patch('main._send_posting') as send, contextlib.redirect_stdout(io.StringIO()):
+                process_postings([stale, fresh], ledger)
+                send.assert_called_once_with(fresh, 'https://example.test/general')
 
     def test_category_or_required_fields_changing_fails_closed(self):
         cases = []
@@ -116,7 +192,7 @@ class InternListTests(unittest.TestCase):
                 restarted = Ledger(path, None)
                 self.assertEqual(restarted.jobs[0]['status'], 'seen')
                 # A real new job has its own identity, not just a new aggregator ID.
-                fresh = replace(fresh, title='Cloud Engineering Intern - Summer 2027')
+                fresh = replace(fresh, title='Cloud Software Engineering Intern - Summer 2027')
                 process_postings([existing, fresh], restarted)
                 send.assert_called_once_with(fresh, 'https://example.test/general')
                 process_postings([existing, fresh], Ledger(path, None))

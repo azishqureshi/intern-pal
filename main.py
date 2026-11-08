@@ -66,6 +66,8 @@ def _get_max_age_days(channel: Dict) -> Optional[int]:
 
 
 def _posting_matches_channel(posting: Posting, channel: Dict) -> bool:
+    if posting.source == 'internlist' and not internlist.is_recent(posting):
+        return False
     sources = channel.get("sources")
     if sources and posting.source not in sources:
         return False
@@ -103,6 +105,8 @@ def _build_fields(posting: Posting) -> List[Dict[str, str]]:
         fields.append({"name": "Term", "value": posting.term, "inline": True})
     if posting.age:
         fields.append({"name": "Age", "value": posting.age or "—", "inline": True})
+    if posting.source == 'internlist' and posting.posted_at:
+        fields.append({"name": "Posted (UTC)", "value": posting.posted_at, "inline": True})
     if posting.job_id:
         fields.append({"name": "Job ID", "value": posting.job_id or "—", "inline": True})
 
@@ -157,12 +161,11 @@ def process_postings(all_postings, ledger, dry_run=False):
                 continue
             eligible = [p for p in members if _posting_matches_channel(p, channel)]
             if eligible:
-                candidates.append((channel, webhook))
+                candidates.append((channel, webhook, eligible[0]))
         if not candidates:
             continue
         # All sources share the general destination and the same delivery ledger.
-        channel, webhook = candidates[0]
-        posting = members[0]
+        channel, webhook, posting = candidates[0]
         if dry_run:
             print(f"DRY RUN {channel['name']}: {posting.company} - {posting.title} | {posting.url}")
             continue
