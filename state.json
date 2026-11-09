@@ -17784,6 +17784,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af21f8e62fb9f5fcd894b38"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
