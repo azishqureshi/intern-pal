@@ -17810,6 +17810,38 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "harvey",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af239531116f6f0a0767759"
+      ],
+      "signatures": [
+        [
+          "software developer intern",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cohere",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af237fb1aaffa49f7382cdc"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
