@@ -17652,6 +17652,19 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "stripe",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a960ee7c8763a3a87ffe2c7"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
