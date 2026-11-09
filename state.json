@@ -17665,6 +17665,86 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "cibc",
+      "ids": [
+        "2623078"
+      ],
+      "urls": [
+        "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Associate-Technology-Leadership-Advancement-Program---Summer-2027_2623078-1"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "simplifyjobs"
+      ]
+    },
+    {
+      "company": "gaotek",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af1e48c8cbcfef4a59d6345"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af1e3f58cbcfef4a59d6323"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af1e3f362fb9f5fcd891a02"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af1e3f21aaffa49f737e8e6"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af1e3f5905985ccaa4067ad"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
