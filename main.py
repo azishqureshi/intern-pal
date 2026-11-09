@@ -86,6 +86,8 @@ def _posting_matches_channel(posting: Posting, channel: Dict) -> bool:
         return False
 
     max_age_days = _get_max_age_days(channel)
+    if posting.source == 'canadianlist' and not canadianlist.is_recent(posting, max_age_days):
+        return False
     if max_age_days is not None and posting.age is not None:
         if not is_age_within_days(posting.age, max_age_days):
             return False
@@ -107,6 +109,8 @@ def _build_fields(posting: Posting) -> List[Dict[str, str]]:
         fields.append({"name": "Age", "value": posting.age or "—", "inline": True})
     if posting.source == 'internlist' and posting.posted_at:
         fields.append({"name": "Posted (UTC)", "value": posting.posted_at, "inline": True})
+    if posting.source == 'canadianlist' and posting.posted_at:
+        fields.append({"name": "Posted (source date)", "value": posting.posted_at, "inline": True})
     if posting.job_id:
         fields.append({"name": "Job ID", "value": posting.job_id or "—", "inline": True})
 

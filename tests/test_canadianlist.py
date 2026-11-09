@@ -1,5 +1,6 @@
 import contextlib
 from dataclasses import replace
+from datetime import datetime, timezone
 import io
 from pathlib import Path
 import tempfile
@@ -8,7 +9,7 @@ from unittest.mock import Mock, patch
 
 import requests
 
-from main import CHANNELS, _posting_matches_channel, process_postings
+from main import CHANNELS, _build_fields, _posting_matches_channel, process_postings
 from tracking import Ledger
 from watchers import canadianlist
 
@@ -33,6 +34,12 @@ def response(status=302, location=None, content=''):
 
 
 class CanadianListTests(unittest.TestCase):
+    def setUp(self):
+        clock = patch('watchers.canadianlist.datetime', wraps=datetime)
+        mocked = clock.start()
+        self.addCleanup(clock.stop)
+        mocked.now.return_value = datetime(2026, 11, 7, 12, tzinfo=timezone.utc)
+
     def test_all_terms_disciplines_and_old_dates_are_preserved(self):
         md = HEADER + ''.join(row('Example', title, f'[Apply](https://example.test/jobs/{i})',
                                  date='Jan 1, 2025')
@@ -43,7 +50,45 @@ class CanadianListTests(unittest.TestCase):
         self.assertEqual(len(jobs), 4)
         self.assertEqual([p.term for p in jobs], ['2027-summer', '2027-winter', '2027-fall', ''])
         self.assertTrue(all(p.age is None and p.posted_at == '2025-01-01' for p in jobs))
-        self.assertTrue(all(_posting_matches_channel(p, CHANNELS[0]) for p in jobs))
+        self.assertTrue(all(not _posting_matches_channel(p, CHANNELS[0]) for p in jobs))
+
+    def test_date_cutoff_rejects_old_unknown_and_future_dates(self):
+        job = canadianlist.parse_readme(HEADER + row('Example', 'Intern',
+                    '[Apply](https://example.test/new)'))[0]
+        self.assertTrue(_posting_matches_channel(job, CHANNELS[0]))
+        for value in ['2026-11-06', '2026-10-15', '2026-09-09', None, '',
+                      'invalid', '2026-02-30', '2026-11-08']:
+            with self.subTest(value=value):
+                self.assertFalse(_posting_matches_channel(replace(job, posted_at=value), CHANNELS[0]))
+        self.assertTrue(canadianlist.is_recent(replace(job, posted_at='2026-11-06'), 1))
+        self.assertFalse(canadianlist.is_recent(replace(job, posted_at='2026-11-05'), 1))
+        self.assertIn({'name': 'Posted (source date)', 'value': '2026-11-07', 'inline': True},
+                      _build_fields(job))
+
+    def test_stale_changed_links_never_send_but_fresh_rows_do(self):
+        # Matches the board's continuation rows and stale alerts. A fresh row
+        # after an old one must still be considered if the board is reordered.
+        md = HEADER + row('Qualcomm', 'Digital Design Engineer Intern',
+                          '[Apply](https://example.test/new1)')
+        md += row('↳', 'RF/Analog Verification Engineer Intern',
+                  '[Apply](https://example.test/new2)')
+        for company, posted in [('SiTime', 'Oct 15, 2026'), ('Intel', 'Sep 9, 2026'),
+                                ('Microsoft', 'Oct 14, 2026')]:
+            md += row(company, 'Engineering Intern', f'[Apply](https://example.test/{company}/changed)', date=posted)
+        md += row('Fresh Employer', 'Intern', '[Apply](https://example.test/new3)')
+        jobs = canadianlist.parse_readme(md)
+        self.assertEqual([p.company for p in jobs[:2]], ['Qualcomm', 'Qualcomm'])
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'state.json'
+            ledger = Ledger(path, None)
+            ledger.state['_source_baselines'] = {'canadianlist': True}
+            with patch.dict('os.environ', {'DISCORD_WEBHOOK_GENERAL': 'https://example.test/general'}, clear=True), \
+                    patch('main._send_posting') as send:
+                process_postings(jobs, ledger)
+                self.assertEqual([c.args[0].url for c in send.call_args_list],
+                                 ['https://example.test/new1', 'https://example.test/new2', 'https://example.test/new3'])
+                process_postings(jobs, Ledger(path, None))
+                self.assertEqual(send.call_count, 3)
 
     def test_company_inheritance_and_closed_missing_foreign_links(self):
         md = HEADER + row('**[Example &amp; Co](https://example.test)**', 'Closed intern',

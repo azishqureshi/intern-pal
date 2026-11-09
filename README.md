@@ -25,3 +25,12 @@ timestamps are not eligible. Alerts display the source timestamp in UTC.
 This window is independent of SimplifyJobs' `MAX_AGE_DAYS_GENERAL` setting.
 The first successful scan remains a silent baseline; existing notification
 history is preserved, and previously seen jobs are not replayed.
+
+Canadian Internship List alerts use the table's `Posted` date and the same
+`MAX_AGE_DAYS_GENERAL` cutoff as SimplifyJobs (production: `0`, today only).
+Dates are compared by UTC calendar day because the list supplies no posting
+time or timezone. Missing, invalid, and future dates never qualify. All rows
+are still read for history and company continuation rows; an old row or a
+changed application link cannot bypass the date cutoff. Alerts include the
+source posting date. Existing history and silent first-scan baselines remain
+intact; this change does not replay earlier listings.

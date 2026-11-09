@@ -1,11 +1,11 @@
 """Read the complete Canadian Internship List across all terms and disciplines.
 
 Like SimplifyJobs, this is a curated list, not an employer-detail adapter.
-Posting dates are metadata, never an age cutoff for this source.
+Read all rows for stable history; notification eligibility uses the Posted date.
 """
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import replace
-from datetime import datetime
+from datetime import date, datetime, timezone
 import logging
 import re
 from urllib.parse import urljoin, urlsplit
@@ -22,6 +22,22 @@ README_URL = "https://raw.githubusercontent.com/Bobwillrule/Canadian-Internship-
 HEADERS = ("company", "role", "location", "apply", "posted")
 SHORT_HOST = "go.vansh.nyc"
 LOG = logging.getLogger(__name__)
+
+
+def is_recent(posting, max_age_days=0, now=None):
+    """Match Simplify's day-based cutoff using the list's date, not discovery.
+
+    The board supplies no time or timezone; compare calendar dates in UTC.
+    Unknown, malformed and future dates fail closed.
+    """
+    try:
+        posted = date.fromisoformat(posting.posted_at or '')
+        if max_age_days is None or max_age_days < 0:
+            return False
+    except (ValueError, TypeError):
+        return False
+    today = (now or datetime.now(timezone.utc)).astimezone(timezone.utc).date()
+    return 0 <= (today - posted).days <= max_age_days
 
 
 def _cells(line):

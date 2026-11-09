@@ -68,7 +68,8 @@ class NotificationRoutingTests(unittest.TestCase):
         jobs = [posting(source=source, company=companies[source], job_id=str(2000+i),
                         location='Toronto, ON, Canada', url=f'https://example.test/jobs/{2000+i}',
                         age='0d' if source == 'simplifyjobs' else None,
-                        posted_at=datetime.now(timezone.utc).isoformat())
+                        posted_at=(datetime.now(timezone.utc).date().isoformat() if source == 'canadianlist'
+                                   else datetime.now(timezone.utc).isoformat()))
                 for i, source in enumerate(WATCHERS)]
         sources = {job.source: (lambda job=job: [job]) for job in jobs}
         duplicates = [replace(job, source='simplifyjobs', age='0d', job_id=None)
