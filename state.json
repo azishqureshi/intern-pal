@@ -17600,6 +17600,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "sitime",
+      "ids": [],
+      "urls": [
+        "https://job-boards.greenhouse.io/sitimecorporation/jobs/4451161009"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "intel",
+      "ids": [],
+      "urls": [
+        "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Virtual-Canada/AI-and-Compiler-Engineering-Graduate-Intern_JR0286850"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
     }
   ],
   "_version": 2,
