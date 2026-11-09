@@ -17626,6 +17626,32 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "astera labs",
+      "ids": [],
+      "urls": [
+        "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4609356005"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "tenstorrent",
+      "ids": [],
+      "urls": [
+        "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5259347007"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
     }
   ],
   "_version": 2,
