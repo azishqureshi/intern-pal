@@ -17797,6 +17797,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "varian",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af22d8e8cbcfef4a59d9ec1"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
