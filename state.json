@@ -17745,6 +17745,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af1f7bc1aaffa49f737f2ff"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "rbc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af1f7b61aaffa49f737f2f4"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
