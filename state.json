@@ -17940,6 +17940,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "dana",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af2dce22ae170adbeb8e699"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "endeavouron",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af2dc432ae170adbeb8e601"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
