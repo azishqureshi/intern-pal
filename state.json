@@ -11395,7 +11395,8 @@
       "ids": [],
       "urls": [
         "https://jobright.ai/jobs/info/6aee3a125c81f621d3114285",
-        "https://jobright.ai/jobs/info/6aee3970d20350c7a507ae9b"
+        "https://jobright.ai/jobs/info/6aee3970d20350c7a507ae9b",
+        "https://jobright.ai/jobs/info/6af358ef80020ca3a8974b67"
       ],
       "signatures": [
         [
@@ -18030,6 +18031,32 @@
       "channel": "general",
       "sources": [
         "simplifyjobs"
+      ]
+    },
+    {
+      "company": "hootsuite",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af358c380020ca3a8974b4e"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "hitachi energy",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af350394ac248020e8cfe7d"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
       ]
     }
   ],
