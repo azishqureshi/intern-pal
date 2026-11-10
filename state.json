@@ -18058,6 +18058,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "hitachi rail",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af369644ac248020e8d0e1e"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
