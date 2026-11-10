@@ -17882,6 +17882,38 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "canada mortgage and housing corporation cmhc societe canadienne d hypotheques et de logement schl",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af264600cb834dad93269a7"
+      ],
+      "signatures": [
+        [
+          "intern junior developer",
+          "montreal qc ottawa on",
+          "2027-summer"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "altera",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af2646a0cb834dad93269aa"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
