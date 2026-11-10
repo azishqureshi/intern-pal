@@ -17851,8 +17851,8 @@
         "https://qualcomm.eightfold.ai/careers/job/446722038614"
       ],
       "signatures": [],
-      "status": "discovered",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "canadianlist"
       ]
@@ -17965,6 +17965,58 @@
       "channel": "",
       "sources": [
         "internlist"
+      ]
+    },
+    {
+      "company": "celestica",
+      "ids": [],
+      "urls": [
+        "https://careers.celestica.com/job/Toronto-Student-Intern%2C-IT-Business-Application-Development-ON/1455777233"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "botpress technologies",
+      "ids": [],
+      "urls": [
+        "https://apply.workable.com/botpress/j/16C68A50A7",
+        "https://apply.workable.com/botpress/j/9B3CB646E8"
+      ],
+      "signatures": [
+        [
+          "software developer intern",
+          "montreal qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "ciena",
+      "ids": [],
+      "urls": [
+        "https://ciena.wd5.myworkdayjobs.com/Careers/job/Quebec/Stagiaire-en-dveloppement-logiciel---Software-developer-Intern-Co-op_R032046"
+      ],
+      "signatures": [
+        [
+          "software developer intern",
+          "qc city qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
       ]
     }
   ],
