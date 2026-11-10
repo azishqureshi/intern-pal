@@ -17678,7 +17678,8 @@
       "status": "sent",
       "channel": "general",
       "sources": [
-        "simplifyjobs"
+        "simplifyjobs",
+        "canadianlist"
       ]
     },
     {
@@ -17841,6 +17842,45 @@
       "channel": "",
       "sources": [
         "internlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://qualcomm.eightfold.ai/careers/job/446722038614"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "altera",
+      "ids": [],
+      "urls": [
+        "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Design-Verification-Intern_R03440"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "kensington",
+      "ids": [],
+      "urls": [
+        "https://job-boards.greenhouse.io/kensingtontours/jobs/5289223007"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
       ]
     }
   ],
