@@ -18030,7 +18030,8 @@
       "status": "sent",
       "channel": "general",
       "sources": [
-        "simplifyjobs"
+        "simplifyjobs",
+        "canadianlist"
       ]
     },
     {
@@ -18070,6 +18071,32 @@
       "channel": "general",
       "sources": [
         "internlist"
+      ]
+    },
+    {
+      "company": "peripheral",
+      "ids": [],
+      "urls": [
+        "https://jobs.dover.com/peripheral/6faa193a-8c36-4416-b97b-38602292f157"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "decoda health",
+      "ids": [],
+      "urls": [
+        "https://jobs.dover.com/decoda-health/206b2863-dde9-4f61-9971-c2176c0fc805"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
       ]
     }
   ],
