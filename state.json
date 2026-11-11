@@ -18222,6 +18222,45 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "exacare ai",
+      "ids": [],
+      "urls": [
+        "https://ats.rippling.com/exacare-inc/jobs/e42f12bc-041a-4ef2-90d8-a77cd7f1f166"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "aim defence",
+      "ids": [],
+      "urls": [
+        "https://aimdefenceinc.applytojobs.ca/engineering/48307"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "astera labs",
+      "ids": [],
+      "urls": [
+        "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4739957005"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
     }
   ],
   "_version": 2,
