@@ -18131,6 +18131,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "spartan controls",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af3f99550da4f7200924074"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "dana",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af3f86350da4f7200923f9f"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
