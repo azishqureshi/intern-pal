@@ -18098,6 +18098,19 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "sap",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af3a79310c7aed77861cfac"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
