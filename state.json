@@ -18196,6 +18196,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "gaotek",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af4775e2278454e18c355d1"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "amd",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a967be0d13b4819f39dc1ec"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
