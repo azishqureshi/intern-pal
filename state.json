@@ -18157,6 +18157,45 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "synopsys",
+      "ids": [],
+      "urls": [
+        "https://careers.synopsys.com/job/nepean/engineering-documentation-and-ai-automation-internship-16-month-co-op/44408/103136134960"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "capital de recherche tower",
+      "ids": [],
+      "urls": [
+        "https://www.tower-research.ca/postes-vacants?gh_jid=8286965"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "roister",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af44176d47c7d8d240076c1"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
