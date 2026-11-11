@@ -18111,6 +18111,25 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "cgi",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af3b8984ac248020e8d408b"
+      ],
+      "signatures": [
+        [
+          "intern software developer 4 months",
+          "saguenay qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
