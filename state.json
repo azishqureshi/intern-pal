@@ -18410,6 +18410,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "autodesk",
+      "ids": [],
+      "urls": [
+        "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Montreal-QC-CAN/Intern--Software-Developer--Stagiaire-en-Dveloppement-Logiciel_26WD102151-3"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "autodesk",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af621f7a4a5218a07e837cf"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
