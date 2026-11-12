@@ -18319,6 +18319,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "spartan controls",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af5817f5544557d957b53f5"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
