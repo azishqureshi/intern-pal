@@ -18382,7 +18382,8 @@
       "company": "ryan",
       "ids": [],
       "urls": [
-        "https://jobright.ai/jobs/info/6ae38973d45dc30fb7d2a5a0"
+        "https://jobright.ai/jobs/info/6ae38973d45dc30fb7d2a5a0",
+        "https://jobright.ai/jobs/info/6ae38984d45dc30fb7d2a5ae"
       ],
       "signatures": [
         [
@@ -18393,6 +18394,19 @@
       ],
       "status": "discovered",
       "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "cibc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ada3dc703d2da75289131d4"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
