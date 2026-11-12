@@ -17662,8 +17662,8 @@
         "https://jobright.ai/jobs/info/6a960ee7c8763a3a87ffe2c7"
       ],
       "signatures": [],
-      "status": "discovered",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
@@ -18260,6 +18260,19 @@
       "channel": "",
       "sources": [
         "canadianlist"
+      ]
+    },
+    {
+      "company": "sap",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af4f607cd7be4db20d8a1e5"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
       ]
     }
   ],
