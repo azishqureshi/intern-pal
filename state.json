@@ -18332,6 +18332,25 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "bmo",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af5fe04a4a5218a07e8204c"
+      ],
+      "signatures": [
+        [
+          "ai developer intern 4 months",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
