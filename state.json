@@ -18274,6 +18274,25 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "ciena",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af4f7ae9144106c56a232d1"
+      ],
+      "signatures": [
+        [
+          "ai ml layout developer intern",
+          "ottawa on",
+          "2027-winter"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
