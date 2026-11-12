@@ -18351,6 +18351,51 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "huawei canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af60f58323c531f31e2f757"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "tmx group",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af6072380054650a5e7b56e"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "ryan",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ae38973d45dc30fb7d2a5a0"
+      ],
+      "signatures": [
+        [
+          "intern software developer",
+          "toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
