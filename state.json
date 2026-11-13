@@ -18922,6 +18922,38 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "seaspan ulc",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af75eca3ba46d7b6c166110"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "canadian tire",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af75e96d0eefb7d11b8bbac"
+      ],
+      "signatures": [
+        [
+          "programmer analyst intern 12 months",
+          "mississauga on",
+          "2027-winter"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
