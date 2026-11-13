@@ -18954,6 +18954,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "pason",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af770afd0eefb7d11b8c687"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
