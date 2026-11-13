@@ -18475,6 +18475,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "autodesk",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af64cb580054650a5e7e0c9"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
