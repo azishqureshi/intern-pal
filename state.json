@@ -18877,6 +18877,25 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "definity financial",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad1092418608b6f36f80e29"
+      ],
+      "signatures": [
+        [
+          "cloud developer intern",
+          "waterloo on",
+          "2027-winter"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
