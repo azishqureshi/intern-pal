@@ -18449,6 +18449,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "autodesk",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af64cb5f10ae27369e18a80"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "sap",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af64c43f10ae27369e18a4f"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
