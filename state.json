@@ -18436,6 +18436,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "brandon university",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af63e0479862a378dcf20b2"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
