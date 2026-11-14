@@ -18549,7 +18549,13 @@
       "urls": [
         "https://capitalpower.wd10.myworkdayjobs.com/External/job/Edmonton-AB/Summer-Student---Data-Science_JR807223-1"
       ],
-      "signatures": [],
+      "signatures": [
+        [
+          "intern data science",
+          "edmonton ab",
+          "2027-summer"
+        ]
+      ],
       "status": "discovered",
       "channel": "",
       "sources": [
@@ -19098,6 +19104,40 @@
       "channel": "",
       "sources": [
         "internlist"
+      ]
+    },
+    {
+      "company": "huawei",
+      "ids": [],
+      "urls": [
+        "https://huaweicanada.recruitee.com/o/intern-researcher-embodied-ai-3"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "bmo",
+      "ids": [
+        "r260026323"
+      ],
+      "urls": [
+        "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/AI-Developer--Winter-2027--Co-op-Internship----4-months_R260026323"
+      ],
+      "signatures": [
+        [
+          "ai developer intern",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
       ]
     }
   ],
