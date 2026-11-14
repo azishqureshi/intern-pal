@@ -14557,7 +14557,7 @@
         "https://jobright.ai/jobs/info/6abe969f4ac55253f5d617a6"
       ],
       "signatures": [],
-      "status": "discovered",
+      "status": "sent",
       "channel": "general",
       "sources": [
         "internlist"
@@ -14570,7 +14570,7 @@
         "https://jobright.ai/jobs/info/6a538411e726ec56126a7100"
       ],
       "signatures": [],
-      "status": "discovered",
+      "status": "sent",
       "channel": "general",
       "sources": [
         "internlist"
@@ -14621,7 +14621,7 @@
           "2027-summer"
         ]
       ],
-      "status": "discovered",
+      "status": "sent",
       "channel": "general",
       "sources": [
         "internlist"
@@ -14827,7 +14827,7 @@
         "https://jobright.ai/jobs/info/6aa13137500b01124c77bbec"
       ],
       "signatures": [],
-      "status": "discovered",
+      "status": "sent",
       "channel": "general",
       "sources": [
         "internlist"
@@ -15289,7 +15289,7 @@
           "2027-winter"
         ]
       ],
-      "status": "discovered",
+      "status": "sent",
       "channel": "general",
       "sources": [
         "internlist"
@@ -17611,7 +17611,7 @@
         "https://jobright.ai/jobs/info/6af0b40e7bf8e8b9eaf83402"
       ],
       "signatures": [],
-      "status": "discovered",
+      "status": "sent",
       "channel": "general",
       "sources": [
         "internlist"
