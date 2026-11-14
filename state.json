@@ -18980,6 +18980,77 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "w w grainger",
+      "ids": [],
+      "urls": [
+        "https://jobs.grainger.com/Canada/job/THORNHILL-GCAN-Field-Operations-Analyst-Intern-ON-L3T-7W8/1450732300?ats=successfactors"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "w w grainger",
+      "ids": [],
+      "urls": [
+        "https://jobs.grainger.com/Canada/job/THORNHILL-GCAN-Customer-Experience-Intern-ON-L3T-7W8/1450621700?ats=successfactors"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "apple",
+      "ids": [],
+      "urls": [
+        "https://jobs.apple.com/en-us/details/200694171-3965/apple-music-intern?team=STDNT"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "fonds de solidarite ftq",
+      "ids": [],
+      "urls": [
+        "https://fondsftq.wd10.myworkdayjobs.com/sitecarriere_externe/job/Fonds-de-solidarit-FTQ--Sige-social---Montral-Canada/Stagiaire-en-intelligence-d-affaires-et-solutions-M365_DP5874"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "game companies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af7cee6487034fbf76319f9"
+      ],
+      "signatures": [
+        [
+          "software developer intern 8 months sports technology undergraduate",
+          "vancouver bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
