@@ -194,9 +194,37 @@ class InternListTests(unittest.TestCase):
                 # A real new job has its own identity, not just a new aggregator ID.
                 fresh = replace(fresh, title='Cloud Software Engineering Intern - Summer 2027')
                 process_postings([existing, fresh], restarted)
-                send.assert_called_once_with(fresh, 'https://example.test/general')
+                self.assertEqual(send.call_count, 2)
+                self.assertEqual([call.args[0] for call in send.call_args_list], [existing, fresh])
                 process_postings([existing, fresh], Ledger(path, None))
+                self.assertEqual(send.call_count, 2)
+
+    def test_recent_baseline_recovery_preserves_stale_sent_pending_and_dry_run(self):
+        fresh = internlist.from_job(job())
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'state.json'
+            ledger = Ledger(path, None)
+            ledger.state['_source_baselines'] = {'internlist': True}
+            postings = []
+            for index, status in enumerate(['seen', 'sent', 'pending', 'seen']):
+                p = replace(fresh, company=f'Employer {index}',
+                            url=f'https://example.test/{index}',
+                            posted_at='2026-10-01T00:00:00+00:00' if index == 3 else fresh.posted_at)
+                ledger.observe(p)['status'] = status
+                postings.append(p)
+            ledger.save()
+            before = path.read_bytes()
+            with patch.dict('os.environ', {'DISCORD_WEBHOOK_GENERAL': 'https://example.test/general'}), \
+                    patch('main._send_posting') as send, contextlib.redirect_stdout(io.StringIO()):
+                process_postings(postings, Ledger(path, None), dry_run=True)
+                send.assert_not_called()
+                self.assertEqual(path.read_bytes(), before)
+                process_postings(postings, Ledger(path, None))
+                send.assert_called_once_with(postings[0], 'https://example.test/general')
+                process_postings(postings, Ledger(path, None))
                 self.assertEqual(send.call_count, 1)
+            self.assertEqual([j['status'] for j in Ledger(path, None).jobs],
+                             ['sent', 'sent', 'pending', 'seen'])
 
     def test_shared_employer_history_suppresses_unambiguous_matching_roles(self):
         result = internlist.from_job(job())

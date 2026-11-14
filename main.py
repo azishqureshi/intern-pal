@@ -139,6 +139,7 @@ def run_all_watchers() -> List[Posting]:
 
 def process_postings(all_postings, ledger, dry_run=False):
     """Group first so a verified official listing can supply the application URL."""
+    internlist_initialized = ledger.state.get('_source_baselines', {}).get('internlist', False)
     for source in ('canadianlist', 'internlist'):
         remembered = ledger.baseline_source(source, all_postings)
         if remembered is not None:
@@ -153,6 +154,14 @@ def process_postings(all_postings, ledger, dry_run=False):
             continue
         record = ledger.observe(posting)
         groups.setdefault(id(record), (record, []))[1].append(posting)
+    if internlist_initialized:
+        for record, members in groups.values():
+            if record['status'] == 'seen' and any(
+                    p.source == 'internlist' and _posting_matches_channel(p, channel)
+                    for p in members for channel in CHANNELS):
+                # Baseline is not delivery. Allow a recent, never-sent job once;
+                # sent and pending records retain their duplicate protection.
+                record['status'] = 'discovered'
     if not dry_run:
         ledger.save()
 
