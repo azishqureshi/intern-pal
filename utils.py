@@ -1,5 +1,7 @@
 import re
 import html as html_module
+import math
+import time
 from typing import Optional
 
 import requests
@@ -97,5 +99,15 @@ def send_discord_webhook(
         ]
     }
     headers = {"Content-Type": "application/json"}
-    r = requests.post(webhook_url, params={"wait": "true"}, json=payload, headers=headers, timeout=10)
-    r.raise_for_status()
+    for attempt in range(4):
+        r = requests.post(webhook_url, params={"wait": "true"}, json=payload, headers=headers, timeout=10)
+        if r.status_code == 429 and attempt < 3:
+            try:
+                delay = float(r.json()['retry_after'])
+            except (ValueError, TypeError, KeyError):
+                r.raise_for_status()
+            if math.isfinite(delay) and 0 <= delay <= 60:
+                time.sleep(delay + 0.1)
+                continue
+        r.raise_for_status()
+        return
