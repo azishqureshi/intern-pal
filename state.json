@@ -11524,7 +11524,8 @@
       "ids": [],
       "urls": [
         "https://jobright.ai/jobs/info/6ad1755518608b6f36f84309",
-        "https://jobright.ai/jobs/info/6af3f5e8ebe39ae3299d9a78"
+        "https://jobright.ai/jobs/info/6af3f5e8ebe39ae3299d9a78",
+        "https://jobright.ai/jobs/info/6af7ea3034e2d29dcb752335"
       ],
       "signatures": [
         [
@@ -13280,7 +13281,8 @@
       "company": "alstom",
       "ids": [],
       "urls": [
-        "https://jobright.ai/jobs/info/6ae2d392d52406f6fbf73af2"
+        "https://jobright.ai/jobs/info/6ae2d392d52406f6fbf73af2",
+        "https://jobright.ai/jobs/info/6af7e827c7349029d7099337"
       ],
       "signatures": [
         [
@@ -14397,7 +14399,8 @@
       "ids": [],
       "urls": [
         "https://jobright.ai/jobs/info/6ad68d1c950ef68d5183b37b",
-        "https://jobright.ai/jobs/info/6acdf35c3df789c1198a4ac4"
+        "https://jobright.ai/jobs/info/6acdf35c3df789c1198a4ac4",
+        "https://jobright.ai/jobs/info/6af7ea93c7349029d7099660"
       ],
       "signatures": [
         [
@@ -19059,6 +19062,25 @@
         "https://jobright.ai/jobs/info/6af7d4dc42ae65e2c8f39860"
       ],
       "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "game companies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af7e9394ddfc50167b94c93"
+      ],
+      "signatures": [
+        [
+          "c software developer intern ufc vancouver 8 months",
+          "vancouver bc burnaby bc",
+          "2027-summer"
+        ]
+      ],
       "status": "discovered",
       "channel": "",
       "sources": [
