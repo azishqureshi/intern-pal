@@ -1,6 +1,7 @@
 import os
 import logging
 import requests
+from collections import Counter, defaultdict
 from typing import Dict, List, Optional
 
 from models import Posting
@@ -154,6 +155,24 @@ def process_postings(all_postings, ledger, dry_run=False):
         groups.setdefault(id(record), (record, []))[1].append(posting)
     if not dry_run:
         ledger.save()
+
+    # Count unique ledger records per source, rather than raw duplicate rows.
+    # A refreshed aggregator timestamp does not make an old job a new identity.
+    summaries = defaultdict(Counter)
+    for record, members in groups.values():
+        for source in {p.source for p in members}:
+            eligible = any(_posting_matches_channel(p, channel)
+                           for p in members if p.source == source
+                           for channel in CHANNELS)
+            reason = record['status']
+            if reason == 'seen' and eligible:
+                reason = 'baseline_seen_recent'
+            elif reason == 'discovered':
+                reason = 'eligible' if eligible else 'filtered'
+            summaries[source][reason] += 1
+    for source, counts in sorted(summaries.items()):
+        print(f"{source}: scan decisions: " + ', '.join(
+            f'{reason}={count}' for reason, count in sorted(counts.items())))
 
     for record, members in groups.values():
         if record["status"] != "discovered":
