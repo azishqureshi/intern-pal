@@ -6800,7 +6800,8 @@
       "status": "seen",
       "channel": "",
       "sources": [
-        "canadianlist"
+        "canadianlist",
+        "simplifyjobs"
       ]
     },
     {
