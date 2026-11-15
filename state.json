@@ -19167,6 +19167,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "workday",
+      "ids": [],
+      "urls": [
+        "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Machine-Learning-Engineer-Intern_JR-0110806"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
     }
   ],
   "_version": 2,
