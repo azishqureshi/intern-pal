@@ -14139,8 +14139,8 @@
           "2027-summer"
         ]
       ],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
