@@ -19140,6 +19140,32 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "workday",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af952d41465de0d45f841f7"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "workday",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6af952c548f3528e5a72f212"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
