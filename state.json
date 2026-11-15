@@ -14400,7 +14400,8 @@
       "urls": [
         "https://jobright.ai/jobs/info/6ad68d1c950ef68d5183b37b",
         "https://jobright.ai/jobs/info/6acdf35c3df789c1198a4ac4",
-        "https://jobright.ai/jobs/info/6af7ea93c7349029d7099660"
+        "https://jobright.ai/jobs/info/6af7ea93c7349029d7099660",
+        "https://jobright.ai/jobs/info/6af901059501ee962015de18"
       ],
       "signatures": [
         [
@@ -14409,8 +14410,8 @@
           "2027-winter"
         ]
       ],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
