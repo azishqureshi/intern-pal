@@ -2,17 +2,40 @@
 import logging
 import re
 from urllib.parse import urljoin, urlsplit
+from collections import Counter
 
 import requests
 from bs4 import BeautifulSoup
 
-from filtering import STUDENT, classify, extract_term
+from filtering import STUDENT, classify, extract_term, text
 from models import Posting
 
 BASE = 'https://www.shopify.com'
 INDEX = BASE + '/careers/jobs'
 PROGRAMME = 'https://internships.shopify.com/'
 JOB_PATH = re.compile(r'/careers/[^/?]+_([a-f0-9-]{36})$')
+LOG = logging.getLogger(__name__)
+
+
+def internship_location(location, description):
+    """Resolve broad Americas metadata from the mandatory intern office section.
+
+    Do not infer eligibility from compensation, a company address, or generic
+    Canada mentions elsewhere on the page.
+    """
+    if text(location) not in ('remote - americas', 'remote'):
+        return location
+    match = re.search(
+        r'as an intern you must be able to work(?: in-person)? from one of our offices'
+        r'(.{0,1800}?)(?:onboarding|please note:)', text(description))
+    if not match:
+        return location
+    offices = match[1]
+    cities = []
+    for city, province in [('montreal', 'quebec'), ('ottawa', 'ontario'), ('toronto', 'ontario')]:
+        if re.search(r'\b' + city + r'\b[^.;]{0,100}\b' + province + r'\b', offices):
+            cities.append(f'{city.title()}, {province.title()}, Canada')
+    return '; '.join(cities) or location
 
 
 def parse_detail(html, url):
@@ -31,8 +54,10 @@ def parse_detail(html, url):
     if not match:
         raise ValueError('Shopify job identifier missing')
     title = title.get_text(' ', strip=True)
-    return Posting('shopify', 'Shopify', title, location.get_text(' ', strip=True), None,
-                   url, match[1], None, description.get_text(' ', strip=True),
+    description = description.get_text(' ', strip=True)
+    location = internship_location(location.get_text(' ', strip=True), description)
+    return Posting('shopify', 'Shopify', title, location, None,
+                   url, match[1], None, description,
                    '', '', extract_term(title))
 
 
@@ -57,9 +82,10 @@ def fetch_postings(session=None):
         raise ValueError('Shopify internship programme page changed')
     for a in programme_soup.select('a[href]'):
         url = urljoin(BASE, a['href']).split('?')[0]
-        if urlsplit(url).netloc == 'www.shopify.com' and JOB_PATH.search(urlsplit(url).path):
-            urls.add(url)
+        if urlsplit(url).netloc in ('www.shopify.com', 'shopify.com') and JOB_PATH.search(urlsplit(url).path):
+            urls.add(BASE + urlsplit(url).path)
     postings = []
+    rejected = Counter()
     for url in sorted(urls):
         try:
             detail = session.get(url, timeout=25)
@@ -67,8 +93,14 @@ def fetch_postings(session=None):
                 continue  # Expired programme links are not open jobs.
             detail.raise_for_status()
             p = parse_detail(detail.text, url)
-            if classify(p).accepted:
+            decision = classify(p)
+            if decision.accepted:
                 postings.append(p)
+            else:
+                rejected[decision.reason] += 1
+                LOG.info('shopify: rejected %s: %s', p.title, decision.reason)
         except (requests.RequestException, ValueError):
             logging.warning('shopify: detail unavailable (scan incomplete): %s', url)
+    LOG.info('shopify: reviewed %d candidate links; accepted %d; rejection reasons=%s',
+             len(urls), len(postings), dict(rejected))
     return postings

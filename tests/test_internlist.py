@@ -42,6 +42,7 @@ class InternListTests(unittest.TestCase):
         mocked.now.return_value = datetime(2026, 11, 7, 23, tzinfo=timezone.utc)
         self.addCleanup(clock.stop)
 
+    @patch.object(internlist, 'PAGE_SIZE', 50)
     def test_all_pages_are_retrieved_and_filtered_to_canadian_interns(self):
         session = Mock()
         first = [job(i) for i in range(1, 51)]
@@ -180,6 +181,13 @@ class InternListTests(unittest.TestCase):
     def test_explicitly_empty_category_is_a_successful_fetch(self):
         session = Mock(); session.post.return_value = page([], 0)
         self.assertEqual(internlist.fetch_postings(session), [])
+
+    def test_current_size_category_is_read_in_one_snapshot(self):
+        session = Mock()
+        session.post.return_value = page([job(i) for i in range(377)], 377)
+        self.assertEqual(len(internlist.fetch_postings(session)), 377)
+        session.post.assert_called_once()
+        self.assertEqual(session.post.call_args.kwargs['params']['count'], 500)
 
     def test_first_scan_is_silent_then_new_entries_send_once_across_restarts(self):
         existing, fresh = [internlist.from_job(job(i)) for i in (1, 2)]

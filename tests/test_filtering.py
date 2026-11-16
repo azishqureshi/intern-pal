@@ -50,6 +50,9 @@ class FilteringTests(unittest.TestCase):
             ('SDET Intern', 'Develop automated test suites using Java.'),
             ('Embedded Software Intern', 'Implement firmware in Rust.'),
             ('Frontend Developer Co-op', 'Develop web applications using React and TypeScript.'),
+            ('Software Engineering Intern', 'Crafting the code that powers commerce using Ruby and Rails.'),
+            ('Applied Machine Learning Engineering Intern', 'Build and deploy models using LLM posttraining and reinforcement learning.'),
+            ('Data Internships', 'Data Engineers architect and manage expansive data pipelines.'),
         ]
         for title, description in cases:
             self.assertTrue(classify(posting(title=title, description=description)).accepted, title)

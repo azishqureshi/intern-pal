@@ -15,7 +15,9 @@ from models import Posting
 
 SEARCH = 'https://jobright.ai/swan/mini-sites/list'
 CATEGORY = 'intern:ca:swe'
-PAGE_SIZE = 50
+# The feed supports 500 rows; the current category fits in one consistent
+# response, avoiding offsets shifting while the board is being updated.
+PAGE_SIZE = 500
 LOG = logging.getLogger(__name__)
 
 

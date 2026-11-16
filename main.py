@@ -125,7 +125,7 @@ def _send_posting(posting: Posting, webhook_url: str) -> None:
     send_discord_webhook(webhook_url, title=title, description=description, url=posting.url, fields=fields)
 
 
-def run_all_watchers() -> List[Posting]:
+def run_all_watchers(failures=None) -> List[Posting]:
     postings: List[Posting] = []
     for name, fetcher in WATCHERS.items():
         try:
@@ -134,6 +134,8 @@ def run_all_watchers() -> List[Posting]:
             print(f"{name}: {len(watcher_postings)} postings")
         except Exception as e:
             print(f"{name}: failed to fetch postings: {e}")
+            if failures is not None:
+                failures.append(name)
     return postings
 
 
@@ -231,8 +233,11 @@ def main() -> None:
             for channel in CHANNELS:
                 if not os.getenv(channel["webhook_env"]):
                     print(f"{channel['name']}: missing {channel['webhook_env']}, channel unavailable")
-        all_postings = run_all_watchers()
+        failures = []
+        all_postings = run_all_watchers(failures)
         process_postings(all_postings, ledger, dry_run=dry_run)
+        if failures:
+            raise RuntimeError('Incomplete scan; failed sources: ' + ', '.join(failures))
 
 
 if __name__ == "__main__":

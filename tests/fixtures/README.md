@@ -1,5 +1,11 @@
 # Fixture provenance
 
+`shopify_internships.json` contains the public SWE, Applied ML Engineering, and
+Data Summer 2027 job descriptions captured November 16, 2026. Each record has
+its official source URL and the original `Remote - Americas` header location.
+Tests reconstruct minimal detail markup to verify office-section extraction,
+technical eligibility, employer-source priority, and existing delivery history.
+
 Captured from public employer pages on November 5, 2026. These are small excerpts to exercise parser structure; they are not a current job feed.
 
 - `rbc_amplify.json`: Workday detail fields for requisition R-0000191193, [Developer, RBC Amplify 2027, Toronto](https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/Developer--RBC-Amplify-2027--Toronto_R-0000191193-1). Description limited to prototype, skills, enrollment and student-job-type evidence. The separated job-type label/value is joined as plain text.

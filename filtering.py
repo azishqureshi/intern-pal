@@ -23,7 +23,8 @@ TECH_ROLE = (
     r"\b(?:software|application|backend|back.end|frontend|front.end|full.stack|"
     r"machine learning|ai|data|cloud|security|infrastructure|embedded|systems?) "
     r"(?:engineer(?:ing)?|develop(?:er|ment))\b|\b(?:devops|sdet|cybersecurity|"
-    r"test automation|software qa|embedded software|firmware|systems programming|programmer|developpeur)\b"
+    r"test automation|software qa|embedded software|firmware|systems programming|programmer|developpeur|"
+    r"data scien(?:ce|tist)|data internships?)\b"
 )
 BUSINESS_ROLE = (
     r"\b(?:business (?:systems? )?analyst|investment banking|accounting|accountant|"
@@ -33,7 +34,8 @@ BUSINESS_ROLE = (
 )
 SKILLS = r"\b(?:python|java|javascript|typescript|c\+\+|c#|golang|rust|sql|linux|git|"
 SKILLS += r"kubernetes|docker|terraform|aws|azure|react|pytorch|tensorflow|"
-SKILLS += r"programming|algorithms|data structures|apis?|ci/cd|penetration testing)(?=\W|$)"
+SKILLS += r"programming|algorithms|data structures|apis?|ci/cd|penetration testing|ruby|rails|"
+SKILLS += r"llms?|reinforcement learning|model quantization|data pipelines?)(?=\W|$)"
 # Action + technical object in the same clause. Mentions of technology, a CS
 # degree, Excel, or working *with* developers are not responsibility evidence.
 DUTIES = [
@@ -42,6 +44,9 @@ DUTIES = [
     r"\b(?:automat\w*|develop\w*|build\w*|implement\w*)\b[^.;\n]{0,70}\b(?:test suites?|test automation|automated tests?|ci/cd|deployment pipelines?)\b",
     r"\b(?:deploy\w*|configur\w*|provision\w*|manag\w*)\b[^.;\n]{0,70}\b(?:cloud infrastructure|kubernetes|containers?|linux servers?|infrastructure as code)\b",
     r"\b(?:perform\w*|conduct\w*|investigat\w*|implement\w*)\b[^.;\n]{0,70}\b(?:penetration tests?|penetration testing|vulnerability assessments?|security incidents?|threat detection|security controls)\b",
+    r"\bcraft\w*\b[^.;\n]{0,40}\bcode\b",
+    r"\b(?:architect\w*|manag\w*)\b[^.;\n]{0,70}\bdata pipelines?\b",
+    r"\b(?:build\w*|train\w*|deploy\w*|fine.tun\w*)\b[^.;\n]{0,60}\b(?:ml |machine learning )?models\b",
 ]
 
 
