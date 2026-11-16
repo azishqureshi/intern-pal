@@ -19375,6 +19375,25 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "general motors",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afb6debc2bd7db01b8815df"
+      ],
+      "signatures": [
+        [
+          "intern data developer software developer",
+          "oshawa on",
+          "2027-winter"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
