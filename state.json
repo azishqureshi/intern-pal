@@ -19300,6 +19300,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "gaotek",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afb48c87f9ead6668ea06a9"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
