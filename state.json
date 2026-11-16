@@ -19180,6 +19180,25 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "steel dev",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afa391d48f3528e5a730a9a"
+      ],
+      "signatures": [
+        [
+          "software developer intern",
+          "toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
