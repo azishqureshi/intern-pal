@@ -14037,8 +14037,8 @@
         "https://jobright.ai/jobs/info/6aa50db742411952ff9a6c60"
       ],
       "signatures": [],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
