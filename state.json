@@ -3841,7 +3841,7 @@
       ]
     },
     {
-      "company": "",
+      "company": "steel",
       "ids": [],
       "urls": [
         "https://jobs.ashbyhq.com/steel/5fbdbebf-ddb2-4264-a941-3ab6d475208c/application?embed=true"
@@ -3850,7 +3850,8 @@
       "status": "sent",
       "channel": "general",
       "sources": [
-        "legacy"
+        "legacy",
+        "simplifyjobs"
       ]
     },
     {
