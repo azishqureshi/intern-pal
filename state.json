@@ -19272,6 +19272,21 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "shopify",
+      "ids": [
+        "7ebb28da0f4a40aeb41ff5de60f3ca2a"
+      ],
+      "urls": [
+        "https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "simplifyjobs"
+      ]
     }
   ],
   "_version": 2,
