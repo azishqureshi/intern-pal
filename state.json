@@ -19281,11 +19281,18 @@
       "urls": [
         "https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a"
       ],
-      "signatures": [],
+      "signatures": [
+        [
+          "can software developer internships",
+          "montreal qc ottawa on toronto on",
+          "2027-summer"
+        ]
+      ],
       "status": "sent",
       "channel": "general",
       "sources": [
-        "simplifyjobs"
+        "simplifyjobs",
+        "shopify"
       ]
     },
     {
@@ -19306,6 +19313,61 @@
       "ids": [],
       "urls": [
         "https://jobright.ai/jobs/info/6afb48c87f9ead6668ea06a9"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "shopify",
+      "ids": [
+        "1d6b9bb9a1324ad9b33f3e55d2cfc536"
+      ],
+      "urls": [
+        "https://www.shopify.com/careers/applied-machine-learning-engineering-internships-summer-2027_1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536"
+      ],
+      "signatures": [
+        [
+          "applied machine learning developer internships",
+          "montreal qc ottawa on toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "shopify"
+      ]
+    },
+    {
+      "company": "shopify",
+      "ids": [
+        "33763bbb341b4d78be504076570e5e95"
+      ],
+      "urls": [
+        "https://www.shopify.com/careers/data-internships-summer-2027_33763bbb-341b-4d78-be50-4076570e5e95"
+      ],
+      "signatures": [
+        [
+          "data internships",
+          "montreal qc ottawa on toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "shopify"
+      ]
+    },
+    {
+      "company": "sap",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afb5690317abe715a2635e5"
       ],
       "signatures": [],
       "status": "sent",
