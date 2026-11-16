@@ -3851,7 +3851,8 @@
       "channel": "general",
       "sources": [
         "legacy",
-        "simplifyjobs"
+        "simplifyjobs",
+        "canadianlist"
       ]
     },
     {
@@ -19212,6 +19213,38 @@
       "channel": "",
       "sources": [
         "internlist"
+      ]
+    },
+    {
+      "company": "seaspan",
+      "ids": [],
+      "urls": [
+        "https://hckz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9156"
+      ],
+      "signatures": [
+        [
+          "data developer intern",
+          "vancouver bc",
+          "2027-winter"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "pason iws career",
+      "ids": [],
+      "urls": [
+        "https://recruiting.ultipro.ca/pas5000pason/jobboard/736c1025-c469-4ece-a487-4884545272a7/opportunitydetail?opportunityid=8fa0cb01-1a9f-4b41-9c7e-98649142f8e8"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
       ]
     }
   ],
