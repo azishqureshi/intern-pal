@@ -17187,8 +17187,8 @@
         "https://jobright.ai/jobs/info/6a5333d4e726ec56126a6084"
       ],
       "signatures": [],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
@@ -19430,6 +19430,19 @@
       "signatures": [],
       "status": "discovered",
       "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "gastronomous technologies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6a57628eefb06a45240da31d"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
