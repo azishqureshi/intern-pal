@@ -19579,6 +19579,25 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "bmo",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afc88f26919d6792ef9ee10"
+      ],
+      "signatures": [
+        [
+          "software developer intern 4 months",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
