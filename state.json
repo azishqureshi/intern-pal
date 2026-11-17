@@ -19292,7 +19292,8 @@
       "channel": "general",
       "sources": [
         "simplifyjobs",
-        "shopify"
+        "shopify",
+        "canadianlist"
       ]
     },
     {
@@ -19339,7 +19340,8 @@
       "status": "sent",
       "channel": "general",
       "sources": [
-        "shopify"
+        "shopify",
+        "canadianlist"
       ]
     },
     {
@@ -19360,7 +19362,8 @@
       "status": "sent",
       "channel": "general",
       "sources": [
-        "shopify"
+        "shopify",
+        "canadianlist"
       ]
     },
     {
@@ -19445,6 +19448,84 @@
       "channel": "general",
       "sources": [
         "internlist"
+      ]
+    },
+    {
+      "company": "apple",
+      "ids": [],
+      "urls": [
+        "https://jobs.apple.com/en-us/details/200694171-2550/apple-music-intern?team=STDNT"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "zurich insurance",
+      "ids": [],
+      "urls": [
+        "https://www.careers.zurich.com/job/Toronto-Data-Analytics-&-AI-Intern-ON/1377641357?ats=successfactors"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "birdseye security solutions",
+      "ids": [],
+      "urls": [
+        "https://birdseyeaccount.bamboohr.com/careers/287"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "birdseye security solutions",
+      "ids": [],
+      "urls": [
+        "https://birdseyeaccount.bamboohr.com/careers/289"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "birdseye security solutions",
+      "ids": [],
+      "urls": [
+        "https://birdseyeaccount.bamboohr.com/careers/286"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "q block computing",
+      "ids": [],
+      "urls": [
+        "https://q-block-computing.breezy.hr/p/6d13d3d6cc7e-embedded-systems-developer-intern"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
       ]
     }
   ],
