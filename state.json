@@ -19598,6 +19598,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afc9d83fed10357f942fe56"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
