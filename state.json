@@ -19527,6 +19527,32 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "international civil aviation organization",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afc6a341e98d304ea7f0a1c"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "reinvestwealth",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afc68187df9c4ceafeb9d2c"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
