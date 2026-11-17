@@ -19553,6 +19553,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "novo nordisk",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afc88bc6919d6792ef9edcd"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "saputo",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afc84687df9c4ceafeba9f3"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
