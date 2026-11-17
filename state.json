@@ -19394,6 +19394,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "cisco",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afb880ec2bd7db01b882983"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
