@@ -19676,6 +19676,25 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "hitachi rail",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afdb14552285bd9d8049867"
+      ],
+      "signatures": [
+        [
+          "software analyst intern 8 months",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
