@@ -13456,8 +13456,8 @@
         "https://jobright.ai/jobs/info/6ac52bb38ff3fb9b3bc88066"
       ],
       "signatures": [],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
@@ -19431,8 +19431,8 @@
         "https://jobright.ai/jobs/info/6ac3fb45372c01f6cd73337a"
       ],
       "signatures": [],
-      "status": "discovered",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
