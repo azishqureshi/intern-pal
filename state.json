@@ -19663,6 +19663,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "gaotek",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afd6314f1e9f80d47c33fd3"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
