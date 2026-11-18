@@ -19740,6 +19740,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "lincoln electric",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afe12adf3e7976cc610baf6"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
