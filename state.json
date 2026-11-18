@@ -19611,6 +19611,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afcd354e0cdcfc91143021f"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "tmx group",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afcccc6e0cdcfc91142fe3c"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
