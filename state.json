@@ -19721,6 +19721,25 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "roblox",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afdfe72f170d82b39670493"
+      ],
+      "signatures": [
+        [
+          "canada software developer intern engine",
+          "vancouver bc",
+          "2027-summer"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
