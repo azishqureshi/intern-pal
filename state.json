@@ -19650,6 +19650,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "celestica",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afd3092f1e9f80d47c3377d"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
