@@ -19764,7 +19764,8 @@
       "status": "sent",
       "channel": "general",
       "sources": [
-        "simplifyjobs"
+        "simplifyjobs",
+        "canadianlist"
       ]
     },
     {
@@ -19777,7 +19778,8 @@
       "status": "sent",
       "channel": "general",
       "sources": [
-        "simplifyjobs"
+        "simplifyjobs",
+        "canadianlist"
       ]
     },
     {
@@ -19800,8 +19802,8 @@
         "https://jobright.ai/jobs/info/6af8611334e2d29dcb754c0f"
       ],
       "signatures": [],
-      "status": "discovered",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
@@ -19830,6 +19832,129 @@
       "channel": "general",
       "sources": [
         "internlist"
+      ]
+    },
+    {
+      "company": "microsoft",
+      "ids": [],
+      "urls": [
+        "https://apply.careers.microsoft.com/careers/job/1970393557075474?hl=en"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://qualcomm.eightfold.ai/careers/job/446722176432"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "workstream",
+      "ids": [],
+      "urls": [
+        "https://job-boards.greenhouse.io/workstream/jobs/6265872004"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "scotiabank",
+      "ids": [],
+      "urls": [
+        "https://jobs.scotiabank.com/job/608151217"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "angel host",
+      "ids": [],
+      "urls": [
+        "https://angelhost.bamboohr.com/careers/123"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "xradar",
+      "ids": [],
+      "urls": [
+        "https://xradar.bamboohr.com/careers/203"
+      ],
+      "signatures": [
+        [
+          "software developer intern",
+          "burnaby bc",
+          "2027-winter"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "qualcomm",
+      "ids": [],
+      "urls": [
+        "https://careers.qualcomm.com/careers/job/446722176432"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "microsoft",
+      "ids": [],
+      "urls": [
+        "https://apply.careers.microsoft.com/careers/job/1970393557045545?hl=en"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "microsoft",
+      "ids": [],
+      "urls": [
+        "https://apply.careers.microsoft.com/careers/job/1970393557045544?hl=en"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
       ]
     }
   ],
