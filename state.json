@@ -19766,6 +19766,32 @@
       "sources": [
         "simplifyjobs"
       ]
+    },
+    {
+      "company": "roblox",
+      "ids": [],
+      "urls": [
+        "https://careers.roblox.com/jobs/8386080?gh_jid=8386080"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "simplifyjobs"
+      ]
+    },
+    {
+      "company": "revvity",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afe38b08cffea7c97c915bf"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
