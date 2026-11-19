@@ -18450,8 +18450,8 @@
           "2027-summer"
         ]
       ],
-      "status": "discovered",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
@@ -20030,6 +20030,39 @@
       ],
       "status": "discovered",
       "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "mda space",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aff6ef9dd029d798066c17e",
+        "https://jobright.ai/jobs/info/6aff6e586f4ca73dfeb441f3"
+      ],
+      "signatures": [
+        [
+          "developer intern ai ml specialist",
+          "richmond bc",
+          "2027-winter"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "nvidia",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aff741fdd029d798066c381"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
