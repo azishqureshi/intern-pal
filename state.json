@@ -19805,6 +19805,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "workstream",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afe5b1ff3e7976cc610df58"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
