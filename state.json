@@ -19956,6 +19956,32 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "georgian",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aff1dceaea17e3f50ead681"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "motorola solutions",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aff1c5772b9be368528e670"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
