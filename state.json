@@ -12603,8 +12603,8 @@
           "2027-winter"
         ]
       ],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
