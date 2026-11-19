@@ -19982,6 +19982,57 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "canadian solar",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aff290672b9be368528ef16"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "peripheral",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aff2983c1c02a9acd809358"
+      ],
+      "signatures": [
+        [
+          "i software developer intern infrastructure",
+          "toronto on",
+          "2027-spring"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "peripheral",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aff298597dcc4fc8dca9415"
+      ],
+      "signatures": [
+        [
+          "i software developer intern viewer",
+          "toronto on",
+          "2027-spring"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
