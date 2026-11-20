@@ -20118,6 +20118,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "revvity",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6afffd063a9a0230ab0254d8"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
