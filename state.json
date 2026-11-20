@@ -20079,6 +20079,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "georgian partners growth",
+      "ids": [],
+      "urls": [
+        "https://jobs.ashbyhq.com/georgian/62da47ff-0424-4e28-bffa-cff0de8ca228/application?embed=true"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "horizon trading solutions",
+      "ids": [],
+      "urls": [
+        "https://job-boards.eu.greenhouse.io/horizontradingsolutions/jobs/5011266101"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
     }
   ],
   "_version": 2,
