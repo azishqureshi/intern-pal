@@ -20105,6 +20105,19 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "bdo canada",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6affce2c72b9be3685294293"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
