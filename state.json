@@ -20183,6 +20183,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "altera",
+      "ids": [],
+      "urls": [
+        "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Software-Engineer-Intern_R03445"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "alexander innovation centre",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b00be170f536e0ba7276d63"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
