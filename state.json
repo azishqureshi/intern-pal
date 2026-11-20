@@ -20157,6 +20157,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "kinaxis",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b0089bcdfa58e4c244dc186"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
