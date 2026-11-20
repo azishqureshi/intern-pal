@@ -13216,8 +13216,8 @@
         "https://jobright.ai/jobs/info/6ac74bb1744463a18c9315ab"
       ],
       "signatures": [],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
@@ -20137,6 +20137,19 @@
       "ids": [],
       "urls": [
         "https://jobright.ai/jobs/info/6b004bf30f536e0ba7272ef5"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "future electronics",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b005f2c46419e65476b3726"
       ],
       "signatures": [],
       "status": "sent",
