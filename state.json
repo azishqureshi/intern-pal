@@ -20254,6 +20254,25 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "fgf brands",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b00ed3d2ad6cde5ef2502eb"
+      ],
+      "signatures": [
+        [
+          "ai developer cerebro intern",
+          "greater toronto area on",
+          "2027-winter"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
