@@ -13022,8 +13022,8 @@
         "https://jobright.ai/jobs/info/6ae3cdf0fb2cd420ace542c1"
       ],
       "signatures": [],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
