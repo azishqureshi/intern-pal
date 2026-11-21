@@ -20220,7 +20220,8 @@
       "status": "sent",
       "channel": "general",
       "sources": [
-        "simplifyjobs"
+        "simplifyjobs",
+        "canadianlist"
       ]
     },
     {
@@ -20266,6 +20267,64 @@
           "ai developer cerebro intern",
           "greater toronto area on",
           "2027-winter"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "method",
+      "ids": [],
+      "urls": [
+        "https://job-boards.greenhouse.io/method/jobs/8207585003"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "meridian credit union",
+      "ids": [],
+      "urls": [
+        "https://recruiting.ultipro.ca/MER5001MCUL/JobBoard/6c1f133f-d0ac-48cd-a17d-bc54fe044ce3/OpportunityDetail?opportunityId=ea375757-76a7-4b9e-81d0-478ed7beb2e1"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "celestica",
+      "ids": [],
+      "urls": [
+        "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Salesforce-Developer-1-ON/1458172833"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "game companies",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b0117ef2ad6cde5ef250ed9"
+      ],
+      "signatures": [
+        [
+          "canada software developer intern engine",
+          "vancouver bc",
+          "2027-summer"
         ]
       ],
       "status": "discovered",
