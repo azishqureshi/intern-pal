@@ -20345,6 +20345,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "canadian solar",
+      "ids": [],
+      "urls": [
+        "https://canadiansolar.wd5.myworkdayjobs.com/CanadianSolar/job/Kitchener-ON/Data-Engineering-Intern_10001603"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
     }
   ],
   "_version": 2,
