@@ -20209,6 +20209,51 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "pason systems",
+      "ids": [],
+      "urls": [
+        "https://recruiting.ultipro.ca/PAS5000PASON/JobBoard/736c1025-c469-4ece-a487-4884545272a7/OpportunityDetail?opportunityId=8fa0cb01-1a9f-4b41-9c7e-98649142f8e8"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "simplifyjobs"
+      ]
+    },
+    {
+      "company": "tait",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b00d7afa512f514bbde0edb"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "bmo",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b00d711f6ef85c61a50d154"
+      ],
+      "signatures": [
+        [
+          "quantitative developer alpha research team gam intern 12 months",
+          "toronto on",
+          "2027-summer"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
