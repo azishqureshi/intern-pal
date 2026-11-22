@@ -20371,6 +20371,19 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "connor clark lunn investment management cc l",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6ad727db54bbabbab06fce27"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
