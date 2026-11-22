@@ -20358,6 +20358,19 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "microsoft",
+      "ids": [],
+      "urls": [
+        "https://apply.careers.microsoft.com/careers/job/1970393557076203?hl=en"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
     }
   ],
   "_version": 2,
