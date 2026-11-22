@@ -12830,8 +12830,8 @@
         "https://jobright.ai/jobs/info/6aac356295c707f49dff027e"
       ],
       "signatures": [],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
