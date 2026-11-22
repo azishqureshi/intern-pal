@@ -14,7 +14,6 @@ from filtering import classify, extract_term, text
 from models import Posting
 
 LOG = logging.getLogger(__name__)
-HEADERS = {"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
 
 
 @dataclass(frozen=True)
@@ -74,6 +73,8 @@ def from_detail(board, data):
 
 
 def fetch_board(board, session=None):
+    # Use the HTTP client's default headers. The previous generic browser
+    # header set received 429s on all four boards, including detail requests.
     session = session or requests.Session()
     results, seen = [], set()
     rejected = Counter()
@@ -81,7 +82,7 @@ def fetch_board(board, session=None):
         offset = 0
         query_seen = set()
         for _ in range(100):
-            response = session.post(board.api + "/jobs", headers=HEADERS, timeout=25,
+            response = session.post(board.api + "/jobs", timeout=25,
                                     json={"appliedFacets": board.facets, "limit": 20,
                                           "offset": offset, "searchText": query})
             response.raise_for_status()
@@ -106,7 +107,7 @@ def fetch_board(board, session=None):
                     continue
                 time.sleep(0.15)
                 try:
-                    detail = session.get(board.api + path, headers=HEADERS, timeout=25)
+                    detail = session.get(board.api + path, timeout=25)
                     detail.raise_for_status()
                     posting = from_detail(board, detail.json())
                     if posting:

@@ -11,7 +11,7 @@ from unittest.mock import Mock, patch
 import requests
 
 from filtering import classify
-from watchers import amazon, banks, cibc, google, scotiabank, shopify, workday
+from watchers import amd, amazon, banks, cibc, google, scotiabank, shopify, workday
 
 DESCRIPTION = 'Develop software applications using Python and Java. Write unit tests and review code. Currently enrolled in an undergraduate degree and returning to school.'
 
@@ -122,6 +122,22 @@ class WorkdayTests(unittest.TestCase):
 
 
 class OtherSourceTests(unittest.TestCase):
+    def test_amd_reads_all_canadian_pages_and_preserves_requisition_identity(self):
+        job = dict(req_id='123', title='Software Engineer', categories=[{'name': 'Engineering'}],
+                   country='Canada', full_location='Markham, Canada')
+        internship = dict(job, req_id='124', title='Software Developer Co-op')
+        session = Mock()
+        session.get.side_effect = [response({'totalCount': 2, 'jobs': [{'data': job}]}),
+                                   response({'totalCount': 2, 'jobs': [{'data': internship}]})]
+        found = amd.fetch_postings(session)
+        self.assertEqual([p.job_id for p in found], ['124'])
+        self.assertEqual(found[0].url, 'https://careers.amd.com/careers-home/jobs/124?lang=en-us')
+        self.assertEqual(session.get.call_args.kwargs['params']['page'], 2)
+        session.get.side_effect = None
+        session.get.return_value = response({'totalCount': 1, 'jobs': []})
+        with self.assertRaises(ValueError):
+            amd.fetch_postings(session)
+
     @patch('watchers.scotiabank.time.sleep')
     def test_scotiabank_pagination_and_requisition(self, _sleep):
         session = Mock()
