@@ -2,12 +2,6 @@
 
 A bot that tracks Canadian internships and co-ops and posts new listings to Discord.
 
-Intern List alerts require a valid source posting timestamp within the last
-48 hours (`INTERNLIST_MAX_AGE_HOURS`). After the initial silent scan, recent
-jobs that were baselined but never sent can alert once. Delivered jobs and
-pending deliveries remain suppressed even when the board refreshes their dates.
-Old baseline jobs remain silent until they qualify for the freshness window.
-
 | Source | Listings |
 | --- | --- |
 | [SimplifyJobs](https://github.com/SimplifyJobs/Summer2027-Internships) | Canadian roles in the software engineering internship list |
