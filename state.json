@@ -20468,6 +20468,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "brave",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b04b4fc7fd2e33bde0968a5"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b04ae59b4933fb9f43605df"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
