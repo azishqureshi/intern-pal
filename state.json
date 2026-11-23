@@ -12700,8 +12700,8 @@
         "https://jobright.ai/jobs/info/6aac5f12636cddf7396f3c8b"
       ],
       "signatures": [],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
@@ -20377,6 +20377,19 @@
       "ids": [],
       "urls": [
         "https://jobright.ai/jobs/info/6ad727db54bbabbab06fce27"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "tecsys",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b043012526905eb2bcf56b2"
       ],
       "signatures": [],
       "status": "sent",
