@@ -12648,8 +12648,8 @@
         "https://jobright.ai/jobs/info/6ac6ae634ac55253f5d7b80e"
       ],
       "signatures": [],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
@@ -12732,8 +12732,8 @@
           "2027-summer"
         ]
       ],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
@@ -12771,8 +12771,8 @@
           "2027-winter"
         ]
       ],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
