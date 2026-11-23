@@ -20418,8 +20418,21 @@
         "https://jobright.ai/jobs/info/6b04496a526905eb2bcf5c44"
       ],
       "signatures": [],
-      "status": "discovered",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "sap",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b04751121f0a1e0c849b276"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
