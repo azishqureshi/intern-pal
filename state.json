@@ -20546,6 +20546,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "workstream",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b04dfcc2d88b678f117a574"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
