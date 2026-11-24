@@ -20494,6 +20494,45 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "brave",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b04b897b4933fb9f4360b47"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b04b84e2d88b678f1178f86"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "soti",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b04b864b4933fb9f4360aab"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
