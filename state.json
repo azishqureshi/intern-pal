@@ -20533,6 +20533,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "presto",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b04c6f72d88b678f1179b91"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
