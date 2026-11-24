@@ -20559,6 +20559,32 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "schneider electric",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b05c106d43f730eab595c90"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "canadian solar",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6aff290297dcc4fc8dca9399"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
