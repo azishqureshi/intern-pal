@@ -20585,6 +20585,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "altera",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b05d6ccd43f730eab596840"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
