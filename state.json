@@ -20683,6 +20683,127 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "ssi",
+      "ids": [],
+      "urls": [
+        "https://ssicorporate.bamboohr.com/careers/101"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "bdo",
+      "ids": [],
+      "urls": [
+        "https://bdo.wd3.myworkdayjobs.com/en-US/bdo/job/Toronto---Bay-St/Co-op-or-Intern--Technology---BizApps--January-2027-_JR7062"
+      ],
+      "signatures": [
+        [
+          "intern or intern technology bizapps",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "meta",
+      "ids": [],
+      "urls": [
+        "https://www.metacareers.com/jobs/1110284504699535"
+      ],
+      "signatures": [
+        [
+          "visiting researcher ai mentorship program phd",
+          "montreal qc",
+          "2027-fall"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "ross video",
+      "ids": [],
+      "urls": [
+        "https://jobs.jobvite.com/ross-video-careers/job/o51QAfwg?fr=false&nl=1&nl=1"
+      ],
+      "signatures": [
+        [
+          "research assistant intern ai focus",
+          "nepean on",
+          "2027-winter"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "qsl",
+      "ids": [],
+      "urls": [
+        "https://jobs.smartrecruiters.com/QSL/744000162086264"
+      ],
+      "signatures": [
+        [
+          "software developer and artificial intelligence intern",
+          "qc city qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "critical environment technologies",
+      "ids": [],
+      "urls": [
+        "https://cetci.bamboohr.com/careers/92"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "northstar earth space",
+      "ids": [],
+      "urls": [
+        "https://northstarearthandspace.bamboohr.com/careers/117"
+      ],
+      "signatures": [
+        [
+          "research intern ai for earth observation",
+          "montreal qc",
+          "2028-winter"
+        ]
+      ],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
     }
   ],
   "_version": 2,
