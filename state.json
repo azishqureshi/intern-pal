@@ -20638,6 +20638,51 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "altera",
+      "ids": [],
+      "urls": [
+        "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/AI-Software-Development-Engineer-Intern_R03487"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "altera",
+      "ids": [],
+      "urls": [
+        "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Embedded-Solutions-Intern_R03512"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "bmo",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b061b0945a65b5da366e656"
+      ],
+      "signatures": [
+        [
+          "junior software developer intern 4 months",
+          "toronto on",
+          "2027-winter"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
