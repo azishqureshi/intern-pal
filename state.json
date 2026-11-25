@@ -12463,8 +12463,8 @@
         "https://jobright.ai/jobs/info/6acd7275002e496d4bef23dd"
       ],
       "signatures": [],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
