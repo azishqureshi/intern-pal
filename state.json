@@ -20843,6 +20843,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "nvidia",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b073a9a20135524ca72b136"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
