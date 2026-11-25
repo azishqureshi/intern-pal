@@ -20625,6 +20625,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "super com",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b06168b460ce5352ae3e21b"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
