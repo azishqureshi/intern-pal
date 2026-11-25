@@ -20804,6 +20804,32 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "tecsys",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b071afdfbcb892eea5e061e"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
+    },
+    {
+      "company": "celestica",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b07165b6c5083822fdc6b3b"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
