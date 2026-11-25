@@ -20830,6 +20830,19 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "tecsys",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b0732af08b131a5c65788bd"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
