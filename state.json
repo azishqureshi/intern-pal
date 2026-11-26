@@ -20928,6 +20928,45 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "honeywell aerospace",
+      "ids": [],
+      "urls": [
+        "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/127878"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "amii",
+      "ids": [],
+      "urls": [
+        "https://amii.bamboohr.com/careers/254"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "horizon trading solutions",
+      "ids": [],
+      "urls": [
+        "https://job-boards.eu.greenhouse.io/horizontradingsolutions/jobs/5011271101"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
     }
   ],
   "_version": 2,
