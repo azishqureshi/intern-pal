@@ -20856,6 +20856,45 @@
       "sources": [
         "internlist"
       ]
+    },
+    {
+      "company": "saputo",
+      "ids": [],
+      "urls": [
+        "https://saputo.wd5.myworkdayjobs.com/Saputo_External_Careers/job/Mississauga-ON/Intern--Data-Engineer-Enterprise-Analytics_JR68381"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "celestica",
+      "ids": [],
+      "urls": [
+        "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Engineering-Data-Analytics-ON/1460684533"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "celestica",
+      "ids": [],
+      "urls": [
+        "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Engineering-AI-Development-ON/1460691233"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
     }
   ],
   "_version": 2,
