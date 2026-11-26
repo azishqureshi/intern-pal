@@ -20895,6 +20895,25 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "abb",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b076a312c2b1d2eebe14cbf"
+      ],
+      "signatures": [
+        [
+          "software intern",
+          "dorval qc",
+          "2027-winter"
+        ]
+      ],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
