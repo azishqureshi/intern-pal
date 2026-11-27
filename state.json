@@ -20967,6 +20967,19 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "synopsys",
+      "ids": [],
+      "urls": [
+        "https://synopsys.avature.net/careers/JobDetail/19725"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
     }
   ],
   "_version": 2,
