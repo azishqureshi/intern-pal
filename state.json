@@ -13286,7 +13286,8 @@
       "ids": [],
       "urls": [
         "https://jobright.ai/jobs/info/6ae2d392d52406f6fbf73af2",
-        "https://jobright.ai/jobs/info/6af7e827c7349029d7099337"
+        "https://jobright.ai/jobs/info/6af7e827c7349029d7099337",
+        "https://jobright.ai/jobs/info/6b0a5f0db80cc2b409d875d9"
       ],
       "signatures": [
         [
@@ -13295,8 +13296,8 @@
           "2027-winter"
         ]
       ],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
@@ -21070,6 +21071,19 @@
       "channel": "",
       "sources": [
         "simplifyjobs"
+      ]
+    },
+    {
+      "company": "cn",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b0a6218dd884ad2cc58ff76"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
       ]
     }
   ],
