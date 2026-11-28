@@ -11307,8 +11307,8 @@
         "https://jobright.ai/jobs/info/6ab4301155e9168cf5ea4e4a"
       ],
       "signatures": [],
-      "status": "seen",
-      "channel": "",
+      "status": "sent",
+      "channel": "general",
       "sources": [
         "internlist"
       ]
