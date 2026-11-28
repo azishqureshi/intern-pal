@@ -20992,7 +20992,8 @@
       "status": "sent",
       "channel": "general",
       "sources": [
-        "simplifyjobs"
+        "simplifyjobs",
+        "canadianlist"
       ]
     },
     {
@@ -21070,7 +21071,8 @@
       "status": "discovered",
       "channel": "",
       "sources": [
-        "simplifyjobs"
+        "simplifyjobs",
+        "canadianlist"
       ]
     },
     {
@@ -21084,6 +21086,120 @@
       "channel": "general",
       "sources": [
         "internlist"
+      ]
+    },
+    {
+      "company": "intercept",
+      "ids": [],
+      "urls": [
+        "https://intercept.bamboohr.com/careers/48"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "intercept",
+      "ids": [],
+      "urls": [
+        "https://intercept.bamboohr.com/careers/50"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "bmo",
+      "ids": [
+        "r260031145"
+      ],
+      "urls": [
+        "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/Product-Associate--Summer-2027--Co-op-Internship----4-Months_R260031145-2"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "bmo",
+      "ids": [
+        "r260031168"
+      ],
+      "urls": [
+        "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/Business-Analyst--Summer-2027--Co-op-Internship----4-Months_R260031168-3"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "bmo",
+      "ids": [
+        "r260031148"
+      ],
+      "urls": [
+        "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/Agile-Center-of-Excellence--Summer-2027--Co-op-Internship----4-Months_R260031148-3"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "amazon",
+      "ids": [
+        "10601560"
+      ],
+      "urls": [
+        "https://www.amazon.jobs/en/jobs/10601560/associate-delivery-consultant-intern-aiml-aws-professional-services"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "amazon",
+      "ids": [
+        "10602927"
+      ],
+      "urls": [
+        "https://www.amazon.jobs/en/jobs/10602927/stagiaire-consultant-associe-en-livraison-aiml-associate-delivery-consultant-intern-aiml-aws-professional-services"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
+      ]
+    },
+    {
+      "company": "saputo",
+      "ids": [],
+      "urls": [
+        "https://saputo.wd5.myworkdayjobs.com/saputo_external_careers/job/Saint-Leonard-QC/Stagiaire--dveloppement-durable-et-emballage_JR68362"
+      ],
+      "signatures": [],
+      "status": "discovered",
+      "channel": "",
+      "sources": [
+        "canadianlist"
       ]
     }
   ],
