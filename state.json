@@ -20980,6 +20980,32 @@
       "sources": [
         "canadianlist"
       ]
+    },
+    {
+      "company": "intercept",
+      "ids": [],
+      "urls": [
+        "https://intercept.bamboohr.com/careers/49"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "simplifyjobs"
+      ]
+    },
+    {
+      "company": "cn",
+      "ids": [],
+      "urls": [
+        "https://jobright.ai/jobs/info/6b0a107f0dcf7f64923b62fb"
+      ],
+      "signatures": [],
+      "status": "sent",
+      "channel": "general",
+      "sources": [
+        "internlist"
+      ]
     }
   ],
   "_version": 2,
